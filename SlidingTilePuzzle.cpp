@@ -13,14 +13,6 @@ enum Action
     RIGHT
 };
 
-int getIndex(vector<string> *myvec, string K)
-{
-    for (int i = 0; i < myvec->size(); i++){
-        if (myvec->at(i) == K) return i;
-    }
-    return 0;
-}
-
 int getSwapIndex(int spaceIndex, Action action)
 {
     int swapIndex = 0;
@@ -48,21 +40,26 @@ class SlidingTilePuzzle
         return initialState;
     }
 
-    void getActions(vector<string> *state, vector<int> *possibleActions)
+    int getActions(vector<string> *state, int spaceIndex)
     {
-        int spaceIndex = getIndex(state, "0");
+        int actionIndex = 0;
         if (spaceIndex / 4 > 0)
-              possibleActions->push_back(0);
+//              possibleActions->push_back(0);
 //            possibleActions->at(0) = true;
+        actionIndex+=1;
         if (spaceIndex / 4 < 3)
-         possibleActions->push_back(1);
+//         possibleActions->push_back(1);
 //            possibleActions->at(1) = true;
+        actionIndex+=2;
         if (spaceIndex % 4 > 0)
-         possibleActions->push_back(2);
+//         possibleActions->push_back(2);
 //            possibleActions->at(2) = true;
+        actionIndex+=4;
         if (spaceIndex % 4 < 3)
-         possibleActions->push_back(3);
+//         possibleActions->push_back(3);
 //            possibleActions->at(3) = true;
+        actionIndex+=8;
+        return actionIndex;
     }
 
     double getActionCost(vector<string> *state, Action action)
@@ -70,13 +67,29 @@ class SlidingTilePuzzle
         return 1;
     }
 
-    void doAction(vector<string> *state, vector<string> *newState, Action action)
+    int doAction(vector<string> *state, Action action, int spaceIndex)
     {
-        int spaceIndex = getIndex(state, "0");
         int swapIndex = getSwapIndex(spaceIndex, action);
-        *newState = *state;
-        newState->at(swapIndex) = state->at(spaceIndex);
-        newState->at(spaceIndex) = state->at(swapIndex);
+//        cout << spaceIndex << " " << swapIndex << endl;
+        state->at(spaceIndex) = state->at(swapIndex);
+        state->at(swapIndex) = "0";
+        return swapIndex;
+    }
+
+    Action getOppositeAction(Action action){
+        if (action == UP) return DOWN;
+        if (action == DOWN) return UP;
+        if (action == LEFT) return RIGHT;
+        else return LEFT;
+    }
+
+    int undoAction(vector<string> *state, Action action, int spaceIndex){
+        Action oppositeAction = getOppositeAction(action);
+        return doAction(state, oppositeAction, spaceIndex);
+    }
+
+    int getNextAction(Action action){
+        return abs(action) + 1;
     }
 
     bool isGoalReached(vector<string> *state){

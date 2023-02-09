@@ -5,35 +5,50 @@ using namespace std;
 
 class Node{
     private:
-        Action lastAction;
+        Action parentAction;
+        int lastAction;
         double pathCost;
-        vector<string> state;
+        int actionIndex;
+        int spaceIndex;
     
     public:
         Node(){
             pathCost = 0;
+            lastAction = 0;
         }
 
-        Node(vector<string> newState){
-            state = newState;
+        Node(int aIndex, int sIndex){
+            actionIndex = aIndex;
             pathCost = 0;
+            lastAction = 0;
+            spaceIndex = sIndex;
         }
 
-        Node(vector<string> newState, Action newAction, double newPathCost){
-            state = newState;
-            lastAction = newAction;
+        Node(int aIndex, Action newParentAction, double newPathCost, int sIndex){
+            actionIndex = aIndex;
+            parentAction = newParentAction;
             pathCost = newPathCost;
+            lastAction = 0;
+            spaceIndex = sIndex;
+        }
+        
+        int getSpaceIndex(){
+            return spaceIndex;
         }
 
-        vector<string> getState(){
-            return state;
+        void setSpaceIndex(int sIndex){
+            spaceIndex = sIndex;
         }
 
-        vector<string>* getStatePointer(){
-            return &state;
+        int getActionIndex(){
+            return actionIndex;
         }
 
-        Action getLastAction(){
+        Action getParentAction(){
+            return parentAction;
+        }
+
+        int getLastAction(){
             return lastAction;
         }
 
@@ -41,10 +56,7 @@ class Node{
             return pathCost;
         }
 
-        void printState(){
-            for (string i: state){
-                cout << i << ' ';
-            }
-            cout << endl;
+        void setLastAction(int action){
+            lastAction = action;
         }
 };
