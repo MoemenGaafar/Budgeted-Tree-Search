@@ -22,6 +22,7 @@ int main(){
     // Read korf100 instances line by line
     ifstream KorfFile("korf100.txt");
     string korfInstance;
+    int i = 0;
     while (getline(KorfFile, korfInstance)){
         if (korfInstance.length() < 5)
             continue;
@@ -29,18 +30,20 @@ int main(){
         string instanceId = korfInstance.substr(0, tabPosition);
         string positions = korfInstance.substr(tabPosition+3);
 //        string positions = "1 0 2 3 4 5 6 7 8 9 10 11 12 13 14 15";
+        cout << "Solving Instance #" << instanceId << endl;
         cout << positions << endl;
         // Initalize a new SlidingPuzzle instance for each line
         vector<string> positionsVector = splitString(positions);
         SlidingTilePuzzle puzzle(&positionsVector);
         time_t start, end;
         start = clock();
-        auto [total_generated, total_expanded] = IDAstar(&puzzle);
+        auto [total_generated, total_expanded] = IDAstar(&puzzle, false);
         end = clock();
         double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-        cout << "Time taken: " << time_taken << " sec." << endl;
+        cout << "Time taken: " << time_taken << " sec." << endl << endl;
+        i++;
 
-//        break;
+        break;
         // Call IDA* function to solve the puzzle instance
     }
 

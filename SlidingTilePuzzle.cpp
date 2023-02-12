@@ -62,9 +62,12 @@ class SlidingTilePuzzle
         return actionIndex;
     }
 
-    double getActionCost(vector<string> *state, Action action)
+    double getActionCost(vector<string> *state, Action action, int spaceIndex, bool uniform)
     {
-        return 1;
+        if (uniform) return 1;
+        int swapIndex = getSwapIndex(spaceIndex, action);
+        double tileNum = stoi(state->at(swapIndex));
+        return (tileNum + 2) / (tileNum + 1);
     }
 
     int doAction(vector<string> *state, Action action, int spaceIndex)
@@ -101,13 +104,18 @@ class SlidingTilePuzzle
         return true;
     }
 
-    int getManHeuristic(vector<string> *state){
-        int distance = 0;
+    int getManHeuristic(vector<string> *state, bool uniform){
+        double distance = 0;
+        double element;
+        double extraDistance;
         for (int i=0; i<16; i++){
-            int element = stoi(state->at(i));
+            element = stoi(state->at(i));
+            extraDistance = 0;
             if (element == 0) continue;
-            distance += abs(element%4 - i%4);
-            distance += abs(element/4 - i/4);
+            extraDistance += abs(int(element)%4 - i%4);
+            extraDistance += abs(int(element)/4 - i/4);
+            if (!uniform){ extraDistance *= (element + 2) / (element + 1);}
+            distance += extraDistance;
         }
         return distance;
     }
