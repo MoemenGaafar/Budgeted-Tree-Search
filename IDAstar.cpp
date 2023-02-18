@@ -4,6 +4,7 @@
 #include "SlidingTilePuzzle.cpp"
 #include<map>
 #include <limits>
+#include <algorithm>
 using namespace std;
 
 const double EPSILON = 0.001;
@@ -33,11 +34,16 @@ bool allActionsDone(array<bool, 4>* actions){
 map<int, array<bool, 4>*> ALLACTIONS;
 
 tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, double flimit, int nodeLimit, bool uniform){
+    cout << "Starting DFS with f limit = " << flimit << endl;
     double nextf = 0, maxf = 0;
     time_t start, end;
     vector<string>* currentState = puzzle->getInitialState();
+    for (string a: *currentState){
+                cout << a << " ";
+            }
+    cout << endl;
     vector<Node*> frontier;
-    vector<Node*> goals;
+    vector<double> goalCosts;
     int num_generated = 0; int num_expanded = 0;
 //    array<bool, 4> initActions = {false, false, false, false};
     int spaceIndex = getIndex(currentState, "0");
@@ -60,22 +66,18 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
     
 
     while (frontier.size() != 0){
-        if (num_expanded > nodeLimit){
-            if (goals.size() == 0)
-                return {false, num_generated, num_expanded, maxf, 0, total_time};
-            else
-                return {true, num_generated, num_expanded, maxf, goals.back()->getPathCost(), total_time};
-        }
         currentNode = frontier.back();
         currentActions = ALLACTIONS[currentNode->getActionIndex()];
-//        cout << "Actions: ";
-//        for (bool a: *currentActions){
-//            cout << a << " ";
-//        }
-//        cout << endl;
+
         spaceIndex = currentNode->getSpaceIndex();
+
+        if (num_expanded > nodeLimit){
+            currentNode->setLastAction(4);
+        }
+
+        parentAction = currentNode->getParentAction();
+        
         if (currentNode->getLastAction() == 4){
-            parentAction = currentNode->getParentAction();
             if (frontier.size() > 1){
                 spaceIndex = puzzle->undoAction(currentState, parentAction, spaceIndex);
                 currentNode->setSpaceIndex(spaceIndex);
@@ -89,13 +91,16 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
 
         if (puzzle->isGoalReached(currentState)){
             if (nodeLimit == INF) return {true, num_generated, num_expanded, nextf, currentNode->getPathCost(), total_time};
-
-            goals.push_back(currentNode);
+            for (string a: *currentState){
+                cout << a << " ";
+            }
+            cout << currentNode->getPathCost() << endl;
+            goalCosts.push_back(currentNode->getPathCost());
+            spaceIndex = puzzle->undoAction(currentState, parentAction, spaceIndex);
             frontier.pop_back();
             continue;
         }
 
-        parentAction = currentNode->getParentAction();
 
         i = currentNode->getLastAction();
         while(i < 4){
@@ -130,21 +135,24 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
         currentNode->setLastAction(i);
     }
 
-    Node* goal;
+    double goal;
     double cost, minCost;
-    if (goals.size() == 0)
+
+    if (num_expanded > nodeLimit){
+        nextf = maxf;
+    }
+
+    if (goalCosts.size() == 0)
         return {false, num_generated, num_expanded, nextf, 0, total_time};
     else{
-        minCost = goals.at(0)->getPathCost();
-        for (int i=0; i < goals.size(); i++){
-            goal = goals.back();
-            if (goal->getPathCost() < minCost)
-                minCost = goal->getPathCost();
-            goals.pop_back();
+        minCost = goalCosts.at(0);
+        for (int i=0; i < goalCosts.size(); i++){
+            goal = goalCosts.at(i);
+            if (goal < minCost)
+                minCost = goal;
         }
         return {true, num_generated, num_expanded, nextf, minCost, total_time};
     }
-
 }
 
 tuple<int, int> IDAstar(SlidingTilePuzzle* puzzle, bool uniform){
@@ -207,13 +215,20 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
     int n, budget_low, budget_high;
     double bin_search_low, bin_search_high, midF;
 
+    bool new_found;
+    int new_generated, new_expanded;
+    double new_goal_cost, inside_time;
+
+//    thisF = 39.705357142857146;
     while (!done){
+        cout << "Doing Regular IDA* with f= " << thisF << endl;
         // Do regular DFS with infinite expansion budget
-        auto [new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time] = DFS(puzzle, thisF, INF, uniform);
+        tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, thisF, INF, uniform);
         goalCost = new_goal_cost;
         found = new_found;
         total_expanded += new_expanded;
         total_generated += new_generated;
+        cout << "Expanded " << new_expanded << endl;
         if (found) break;
 
         // If no. of expanded nodes does not grow exponentially, go to EXP. search
@@ -227,14 +242,17 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         budget_high = c2 * prev_expanded;
         n = 0;
 
+        cout << "Doing EXP Search with low and high: " << budget_low << "    " << budget_high << endl;
         while (new_expanded < budget_low){
             // Break if goal is found while below budget
             if (found) break;
             lastLowF = thisF;
             thisF += pow(2, n);
-            auto [new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time] = DFS(puzzle, thisF, budget_high, uniform);
+            tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, thisF, budget_high, uniform);
+            cout << "Expanded " << new_expanded << endl;
             goalCost = new_goal_cost;
             found = new_found;
+            n++;
         }
 
         // If we are still within the budget
@@ -250,7 +268,7 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
 
         // If goal was found but we hit the budget limit, do regular IDA* using the same f-limit
         if (found){
-            thisF = thisF;
+            thisF = goalCost;
             prev_expanded = new_expanded;
             found = false;
             continue;
@@ -259,18 +277,28 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         // If EXP. search hit the budget limit and goal not found, do BIN. search
         bin_search_low = lastLowF;
         bin_search_high = thisF;
+        cout << "Doing BIN search with high and low: " << bin_search_high << "  " << bin_search_low << endl;
+
         bin_search_found = false;
+        new_expanded = 0;
         while (bin_search_low < bin_search_high){
             midF = (bin_search_low + bin_search_high) / 2;
-            auto [new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time] = DFS(puzzle, midF, budget_high, uniform);
+            cout << "midF " << midF << endl;
+            tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, midF, budget_high, uniform);
+            cout << "Expanded " << new_expanded << endl;
             goalCost = new_goal_cost;
             if (new_expanded <= budget_high && new_expanded >= budget_low){
-                nextf = midF;
+                thisF = nextf;
                 prev_expanded = new_expanded;
                 break;
             }
             if (new_expanded > budget_high) bin_search_high = midF;
             if (new_expanded < budget_low) bin_search_low = midF;
+//            if (abs(bin_search_high - bin_search_low) < EPSILON){
+//                thisF = midF;
+//                prev_expanded = new_expanded;
+//                break;
+//            }
         } 
     }
     cout << endl << "GOAL found with path of cost = " << goalCost << endl << endl;

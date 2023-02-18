@@ -38,7 +38,7 @@ int main(){
         time_t start, end;
         start = clock();
 //        auto [total_generated, total_expanded] = IDAstar(&puzzle, true);
-        auto [total_generated, total_expanded] = BTS(&puzzle, true);
+        auto [total_generated, total_expanded] = BTS(&puzzle, false);
         end = clock();
         double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
         cout << "Time taken: " << time_taken << " sec." << endl << endl;
