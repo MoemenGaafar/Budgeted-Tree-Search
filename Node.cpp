@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 #include <vector>
@@ -58,5 +59,20 @@ class Node{
 
         void setLastAction(int action){
             lastAction = action;
+        }
+
+        void setNode(int aIndex, Action newParentAction, double newPathCost, int sIndex){
+            actionIndex = aIndex;
+            parentAction = newParentAction;
+            pathCost = newPathCost;
+            lastAction = 0;
+            spaceIndex = sIndex;
+        }
+        
+        void setNode(int aIndex, int sIndex){
+            actionIndex = aIndex;
+            pathCost = 0;
+            lastAction = 0;
+            spaceIndex = sIndex;
         }
 };

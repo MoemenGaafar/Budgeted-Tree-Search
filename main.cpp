@@ -8,6 +8,7 @@
 
 #include "SlidingTilePuzzle.cpp"
 #include "IDAstar.cpp"
+#include "BTS.cpp"
 using namespace std;
 
 std::vector<std::string> splitString(const std::string &str) {
@@ -37,14 +38,13 @@ int main(){
         SlidingTilePuzzle puzzle(&positionsVector);
         time_t start, end;
         start = clock();
-//        auto [total_generated, total_expanded] = IDAstar(&puzzle, true);
-        auto [total_generated, total_expanded] = BTS(&puzzle, false);
+      auto [total_generated, total_expanded] = IDAstar(&puzzle, true);
+//        auto [total_generated, total_expanded] = BTS(&puzzle, false);
         end = clock();
         double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
         cout << "Time taken: " << time_taken << " sec." << endl << endl;
         i++;
 
-        break;
         // Call IDA* function to solve the puzzle instance
     }
 
