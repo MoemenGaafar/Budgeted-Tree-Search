@@ -25,7 +25,7 @@ tuple<int, int> IDAstar(SlidingTilePuzzle* puzzle, bool uniform){
         FRONTIER.push_back(Node());
     }
 
-    vector<string>* currentState = puzzle->getInitialState();
+    vector<int>* currentState = puzzle->getInitialState();
     double thisF = puzzle->getManHeuristic(currentState, uniform);
     bool found = false;
     int total_expanded = 0, total_generated = 0;

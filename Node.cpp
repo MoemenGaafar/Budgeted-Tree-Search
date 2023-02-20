@@ -11,11 +11,13 @@ class Node{
         double pathCost;
         int actionIndex;
         int spaceIndex;
+        double fcost;
     
     public:
         Node(){
             pathCost = 0;
             lastAction = 0;
+            fcost = 0;
         }
 
         Node(int aIndex, int sIndex){
@@ -23,6 +25,7 @@ class Node{
             pathCost = 0;
             lastAction = 0;
             spaceIndex = sIndex;
+            fcost = 0;
         }
 
         Node(int aIndex, Action newParentAction, double newPathCost, int sIndex){
@@ -57,22 +60,32 @@ class Node{
             return pathCost;
         }
 
+        double getfcost(){
+            return fcost;
+        }
+
+        double getHeuristic(){
+            return fcost - pathCost;
+        }
+
         void setLastAction(int action){
             lastAction = action;
         }
 
-        void setNode(int aIndex, Action newParentAction, double newPathCost, int sIndex){
+        void setNode(int aIndex, Action newParentAction, double newPathCost, int sIndex, double f){
             actionIndex = aIndex;
             parentAction = newParentAction;
             pathCost = newPathCost;
             lastAction = 0;
             spaceIndex = sIndex;
+            fcost = f;
         }
         
-        void setNode(int aIndex, int sIndex){
+        void setNode(int aIndex, int sIndex, double f){
             actionIndex = aIndex;
             pathCost = 0;
             lastAction = 0;
             spaceIndex = sIndex;
+            fcost = f;
         }
 };

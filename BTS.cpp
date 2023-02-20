@@ -9,7 +9,7 @@
 #include "DFS.cpp"
 using namespace std;
 
-tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
+tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform, int c1, int c2){
 
     for (int i=0; i<2; i++){
         for (int j=0; j<2; j++){
@@ -21,34 +21,28 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         }
     }
 
-    for (int i=0; i<1000; i++){
+    for (int i=0; i<100; i++){
         FRONTIER.push_back(Node());
     }
 
-    vector<string>* currentState = puzzle->getInitialState();
+    vector<int>* currentState = puzzle->getInitialState();
     double thisF = puzzle->getManHeuristic(currentState, uniform);
-    bool done = false;
     bool found, bin_search_found;
     int total_expanded = 0, total_generated = 0, prev_expanded = 0;
     double nextf, goalCost, lastLowF;
-
-    const int c1 = 2, c2 = 8;
 
     // BTS variables
     int n, budget_low, budget_high;
     double bin_search_low, bin_search_high, midF;
 
-    bool new_found;
     int new_generated, new_expanded;
-    double new_goal_cost, inside_time;
+    double inside_time;
 
 //    thisF = 39.705357142857146;
-    while (!done){
+    while (!found){
         cout << "Doing Regular IDA* with f= " << thisF << endl;
         // Do regular DFS with infinite expansion budget
-        tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, thisF, INF, uniform);
-        goalCost = new_goal_cost;
-        found = new_found;
+        tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, thisF, INF, uniform);
         total_expanded += new_expanded;
         total_generated += new_generated;
         cout << "Expanded " << new_expanded << endl;
@@ -63,7 +57,7 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         }
 
         budget_high = c2 * prev_expanded;
-        n = 0;
+        n = 1;
 
         cout << "Doing EXP Search with low and high: " << budget_low << "    " << budget_high << endl;
         while (new_expanded < budget_low){
@@ -71,10 +65,10 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
             if (found) break;
             lastLowF = thisF;
             thisF += pow(2, n);
-            tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, thisF, budget_high, uniform);
+            tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, thisF, budget_high, uniform);
+            total_expanded += new_expanded;
+            total_generated += new_generated;
             cout << "Expanded " << new_expanded << endl;
-            goalCost = new_goal_cost;
-            found = new_found;
             n++;
         }
 
@@ -90,12 +84,12 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         }
 
         // If goal was found but we hit the budget limit, do regular IDA* using the same f-limit
-        if (found){
-            thisF = goalCost;
-            prev_expanded = new_expanded;
-            found = false;
-            continue;
-        }
+//        if (found){
+//            thisF = goalCost;
+//            prev_expanded = new_expanded;
+//            found = false;
+//            continue;
+//        }
 
         // If EXP. search hit the budget limit and goal not found, do BIN. search
         bin_search_low = lastLowF;
@@ -107,21 +101,33 @@ tuple<int, int> BTS(SlidingTilePuzzle* puzzle, bool uniform){
         while (bin_search_low < bin_search_high){
             midF = (bin_search_low + bin_search_high) / 2;
             cout << "midF " << midF << endl;
-            tie(new_found, new_generated, new_expanded, nextf, new_goal_cost, inside_time) = DFS(puzzle, midF, budget_high, uniform);
+            tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, midF, budget_high, uniform);
+            total_expanded += new_expanded;
+            total_generated += new_generated;
             cout << "Expanded " << new_expanded << endl;
-            goalCost = new_goal_cost;
             if (new_expanded <= budget_high && new_expanded >= budget_low){
                 thisF = nextf;
                 prev_expanded = new_expanded;
+                cout << "Expanded exactly!" << endl;
                 break;
             }
+
+//            if (found){
+//                thisF = goalCost;
+//                prev_expanded = new_expanded;
+//                found = false;
+//                continue;
+//            }
+
             if (new_expanded > budget_high) bin_search_high = midF;
             if (new_expanded < budget_low) bin_search_low = midF;
-//            if (abs(bin_search_high - bin_search_low) < EPSILON){
-//                thisF = midF;
-//                prev_expanded = new_expanded;
-//                break;
-//            }
+            if (abs(bin_search_high - bin_search_low) < 0.1){
+                thisF = midF;
+                prev_expanded = new_expanded;
+                cout << "Defaulted!" << endl;
+                break;
+            }
+
         } 
     }
     cout << endl << "GOAL found with path of cost = " << goalCost << endl << endl;
