@@ -23,17 +23,12 @@ tuple<long, long, string> IDAstar(SlidingTilePuzzle* puzzle, bool uniform){
     double goalCost;
     while (!found){
         output += "Searching at f-limit = " + to_string(thisF) + "; ";
-//        time_t start, end;
-//        start = clock();
         auto [new_found, new_generated, new_expanded, nextf, goalCost, inside_time] = DFS(puzzle, thisF, INF, uniform);
         found = new_found;
-//        end = clock();
         total_expanded += new_expanded;
         total_generated += new_generated;
         output += "Expanded " + to_string(total_expanded) + "; Generated " + to_string(total_generated) + ";\n";
-//        double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-//        cout << "Time taken by iteration: " << time_taken << " sec." << endl;
-//        cout << "Inside Time: " << inside_time << " sec." << endl;
+
         if (found){
         output += "\nGOAL found with path of cost = " + to_string(goalCost) + "\n";
         output += "Summary: total_expanded " + to_string(total_expanded) + ";total_generated " + to_string(total_generated)

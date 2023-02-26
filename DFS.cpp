@@ -107,13 +107,8 @@ tuple<bool, long, long, double, double, double> DFS(SlidingTilePuzzle* puzzle, d
             lastAction++;
             childPathCost = pathCost + actionCost;
 
-//            start = clock();
             child_heuristic = puzzle->getNewHeuristic(currentState, heuristic, action, spaceIndex, uniform);
             child_fcost = childPathCost + child_heuristic;
-
-//            end = clock();
-//            double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-//            total_time += time_taken;
 
             if (child_fcost - flimit > EPSILON){
                 if (nextf == 0) nextf = child_fcost;

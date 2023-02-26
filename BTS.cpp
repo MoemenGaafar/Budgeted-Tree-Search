@@ -21,17 +21,14 @@ tuple<long, long, string> BTS(SlidingTilePuzzle* puzzle, bool uniform, int c1, i
     long total_expanded = 0, total_generated = 0, budget_low, budget_high;
     double nextf, goalCost, lastLowF;
 
-    // BTS variables
     int n;
     double bin_search_low, bin_search_high, midF;
 
     long new_generated, new_expanded, prev_expanded = 0;
     double inside_time;
 
-//    thisF = 39.705357142857146;
     while (!found){
         output += "\nDoing Regular IDA* with f-limit = " + to_string(thisF) + "; ";
-        cout << "\nDoing Regular IDA* with f-limit = " + to_string(thisF) + "; ";
         // Do regular DFS with infinite expansion budget
         tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, thisF, INF, uniform);
         total_expanded += new_expanded;
@@ -52,14 +49,12 @@ tuple<long, long, string> BTS(SlidingTilePuzzle* puzzle, bool uniform, int c1, i
         n = 1;
 
         output += "\nDoing EXP Search with interval: [" + to_string(budget_low) + ", " + to_string(budget_high) + "]\n";
-        cout << "\nDoing EXP Search with interval: [" + to_string(budget_low) + ", " + to_string(budget_high) + "]\n";
         while (new_expanded < budget_low){
             // Break if goal is found while below budget
             if (found) break;
             lastLowF = thisF;
             thisF += pow(2, n);
             output += "Searching with f-limit = " + to_string(thisF) + "; ";
-            cout << "Searching with f-limit = " + to_string(thisF) + "; ";
             tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, thisF, budget_high, uniform);
             total_expanded += new_expanded;
             total_generated += new_generated;
@@ -86,10 +81,8 @@ tuple<long, long, string> BTS(SlidingTilePuzzle* puzzle, bool uniform, int c1, i
         bin_search_found = false;
         new_expanded = 0;
         while (bin_search_low < bin_search_high){
-            cout << "\nDoing BIN search with interval: ["+ to_string(bin_search_low) + ", " + to_string(bin_search_high) + "]\n";
             midF = (bin_search_low + bin_search_high) / 2;
             output += "Searching with f-limit = " + to_string(midF) + "; ";
-            cout << "Searching with f-limit = " + to_string(midF) + "; ";
             tie(found, new_generated, new_expanded, nextf, goalCost, inside_time) = DFS(puzzle, midF, budget_high, uniform);
             total_expanded += new_expanded;
             total_generated += new_generated;
