@@ -102,7 +102,7 @@ class SlidingTilePuzzle
     double getNewHeuristic(vector<int> *state, double oldHeuristic, Action action, int spaceIndex, bool uniform){
         int swapIndex = getSwapIndex(spaceIndex, action);
         int element = state->at(swapIndex);
-        double difference = oldHeuristic;
+        double difference;
         if (action == LEFT || action == RIGHT){
             difference = abs(element%4 - spaceIndex%4) - abs(element%4 - swapIndex%4);
         }

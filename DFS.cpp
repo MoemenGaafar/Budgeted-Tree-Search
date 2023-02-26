@@ -8,8 +8,8 @@
 #include <algorithm>
 using namespace std;
 
-const double EPSILON = 1e-6;
-const int INF = numeric_limits<int>::max();
+const double EPSILON = 0.001;
+const long INF = numeric_limits<long>::max();
 
 double foundGoalCost=INF;
 
@@ -29,15 +29,14 @@ bool isNotConsistent(SlidingTilePuzzle* puzzle, Action action1, Action action2){
 map<int, array<bool, 4>> ALLACTIONS;
 vector<Node> FRONTIER;
 
-tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, double flimit, int nodeLimit, bool uniform){
-    cout << "Starting DFS with f limit = " << flimit << endl;
+tuple<bool, long, long, double, double, double> DFS(SlidingTilePuzzle* puzzle, double flimit, long nodeLimit, bool uniform){
     double nextf = 0, maxf = 0;
     time_t start, end;
     vector<int>* currentState = puzzle->getInitialState();
     int frontierIndex = 0;
 
     vector<double> goalCosts;
-    int num_generated = 0; int num_expanded = 0;
+    long num_generated = 0; long num_expanded = 0;
     int spaceIndex = getIndex(currentState, 0);
     int actionIndex = puzzle->getActions(currentState, spaceIndex);
     array<bool, 4>* currentActions;
@@ -81,10 +80,6 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
 
         if (puzzle->isGoalReached(currentState)){
             if (nodeLimit == INF) return {true, num_generated, num_expanded, nextf, pathCost, total_time};
-            for (int a: *currentState){
-                cout << a << " ";
-            }
-            cout << pathCost << endl;
             if (pathCost < foundGoalCost) foundGoalCost = pathCost;
             goalCosts.push_back(pathCost);
             spaceIndex = puzzle->undoAction(currentState, parentAction, spaceIndex);
@@ -101,10 +96,12 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
         while(lastAction < 4){
             
             if (!currentActions->at(lastAction)){lastAction++; continue;}
+
             action = static_cast<Action>(lastAction);    
             
             if (flimit - fcost > EPSILON) num_generated += 1;
-            if (isNotConsistent(puzzle, action, parentAction)) {lastAction++; continue;}
+
+            if (frontierIndex > 0 && isNotConsistent(puzzle, action, parentAction)) {lastAction++; continue;}
 
             actionCost = puzzle->getActionCost(currentState, action, spaceIndex, uniform);
             lastAction++;
@@ -131,7 +128,6 @@ tuple<bool, int, int, double, double, double> DFS(SlidingTilePuzzle* puzzle, dou
             FRONTIER[frontierIndex].setNode(actionIndex, action, childPathCost, spaceIndex, child_fcost);
 
             if (flimit - child_fcost > EPSILON) num_expanded+=1;
-
             break;
         }
 

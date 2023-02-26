@@ -1,0 +1,14 @@
+Searching at f-limit = 34.000000; Expanded 0; Generated 0;
+Searching at f-limit = 36.000000; Expanded 5; Generated 14;
+Searching at f-limit = 38.000000; Expanded 41; Generated 118;
+Searching at f-limit = 40.000000; Expanded 223; Generated 642;
+Searching at f-limit = 42.000000; Expanded 1176; Generated 3413;
+Searching at f-limit = 44.000000; Expanded 6197; Generated 18033;
+Searching at f-limit = 46.000000; Expanded 31864; Generated 93058;
+Searching at f-limit = 48.000000; Expanded 167875; Generated 491985;
+Searching at f-limit = 50.000000; Expanded 888338; Generated 2611108;
+Searching at f-limit = 52.000000; Expanded 4709536; Generated 13881205;
+Searching at f-limit = 54.000000; Expanded 7012998; Generated 20653728;
+
+GOAL found with path of cost = 54.000000
+Summary: total_expanded 7012998;total_generated 20653728;goal_cost 54.000000; time_taken: 28.225121 sec;

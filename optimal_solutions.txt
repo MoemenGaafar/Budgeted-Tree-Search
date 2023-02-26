@@ -1,0 +1,3800 @@
+BTS on non-unit STP problem 0
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 13 15 7 11 12 9 5 6 0 2 1 4 8 10 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 37.76s elapsed; 306266260 expanded; 910811644 generated; solution length 66.062623
+Oracle: 22.71s elapsed; 188047540 expanded; 559898733 generated; solution length 66.062623
+IDA* on unit STP problem 0
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 13 15 7 11 12 9 5 6 0 2 1 4 8 10 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 111 expanded, 322 generated
+Starting iteration with bound 45.000000; 884 expanded, 2588 generated
+Starting iteration with bound 47.000000; 6482 expanded, 19017 generated
+Starting iteration with bound 49.000000; 43852 expanded, 128986 generated
+Starting iteration with bound 51.000000; 275680 expanded, 812748 generated
+Starting iteration with bound 53.000000; 1685668 expanded, 4980556 generated
+Starting iteration with bound 55.000000; 10121214 expanded, 29971523 generated
+Starting iteration with bound 57.000000; 59718846 expanded, 177226595 generated
+IDA*: 33.01s elapsed; 304003048 expanded; 903882296 generated; solution length 57.000000
+BTS on unit STP problem 0
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 13 15 7 11 12 9 5 6 0 2 1 4 8 10 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 32.43s elapsed; 304003048 expanded; 903882296 generated; solution length 57.000000
+Oracle: 5.15s elapsed; 49597632 expanded; 147255072 generated; solution length 57.000000
+BTS on non-unit STP problem 1
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 5 4 10 9 12 8 14 2 3 7 1 0 15 11 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.99s elapsed; 33567628 expanded; 99017007 generated; solution length 64.396628
+Oracle: 1.82s elapsed; 15391654 expanded; 45468216 generated; solution length 64.396628
+IDA* on unit STP problem 1
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 5 4 10 9 12 8 14 2 3 7 1 0 15 11 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 1 expanded, 2 generated
+Starting iteration with bound 47.000000; 430 expanded, 1223 generated
+Starting iteration with bound 49.000000; 6915 expanded, 19817 generated
+Starting iteration with bound 51.000000; 77212 expanded, 223729 generated
+Starting iteration with bound 53.000000; 709784 expanded, 2073671 generated
+Starting iteration with bound 55.000000; 5704745 expanded, 16774507 generated
+IDA*: 1.12s elapsed; 10765455 expanded; 31655768 generated; solution length 55.000000
+BTS on unit STP problem 1
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 5 4 10 9 12 8 14 2 3 7 1 0 15 11 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.12s elapsed; 10765471 expanded; 31655817 generated; solution length 55.000000
+Oracle: 0.51s elapsed; 4994961 expanded; 14700836 generated; solution length 55.000000
+BTS on non-unit STP problem 2
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 7 8 2 13 11 10 4 9 12 5 0 3 6 1 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 79.72s elapsed; 655530765 expanded; 1955585035 generated; solution length 68.203111
+Oracle: 32.77s elapsed; 261925237 expanded; 780410710 generated; solution length 68.203111
+IDA* on unit STP problem 2
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 7 8 2 13 11 10 4 9 12 5 0 3 6 1 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 1 expanded, 3 generated
+Starting iteration with bound 45.000000; 58 expanded, 164 generated
+Starting iteration with bound 47.000000; 730 expanded, 2092 generated
+Starting iteration with bound 49.000000; 7497 expanded, 21771 generated
+Starting iteration with bound 51.000000; 67157 expanded, 196673 generated
+Starting iteration with bound 53.000000; 543049 expanded, 1601304 generated
+Starting iteration with bound 55.000000; 4043799 expanded, 11987003 generated
+Starting iteration with bound 57.000000; 28202088 expanded, 83932623 generated
+Starting iteration with bound 59.000000; 186817584 expanded, 557748461 generated
+IDA*: 26.18s elapsed; 235865404 expanded; 703247133 generated; solution length 59.000000
+BTS on unit STP problem 2
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 7 8 2 13 11 10 4 9 12 5 0 3 6 1 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 25.63s elapsed; 235865420 expanded; 703247183 generated; solution length 59.000000
+Oracle: 16.89s elapsed; 158615496 expanded; 473815838 generated; solution length 59.000000
+BTS on non-unit STP problem 3
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 12 10 7 15 11 14 0 8 2 1 13 3 4 9 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 17.86s elapsed; 145457010 expanded; 433513458 generated; solution length 65.679464
+Oracle: 11.58s elapsed; 93421097 expanded; 278693103 generated; solution length 65.679464
+IDA* on unit STP problem 3
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 12 10 7 15 11 14 0 8 2 1 13 3 4 9 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 42.000000; 0 expanded, 0 generated
+Starting iteration with bound 44.000000; 2 expanded, 5 generated
+Starting iteration with bound 46.000000; 183 expanded, 515 generated
+Starting iteration with bound 48.000000; 3148 expanded, 9095 generated
+Starting iteration with bound 50.000000; 37507 expanded, 109687 generated
+Starting iteration with bound 52.000000; 346129 expanded, 1019895 generated
+Starting iteration with bound 54.000000; 2786000 expanded, 8251045 generated
+Starting iteration with bound 56.000000; 20402804 expanded, 60650167 generated
+IDA*: 5.41s elapsed; 49797447 expanded; 148472415 generated; solution length 56.000000
+BTS on unit STP problem 3
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 12 10 7 15 11 14 0 8 2 1 13 3 4 9 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 5.38s elapsed; 49797447 expanded; 148472415 generated; solution length 56.000000
+Oracle: 1.86s elapsed; 17616804 expanded; 52399122 generated; solution length 56.000000
+BTS on non-unit STP problem 4
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 7 14 13 10 3 9 12 11 5 6 15 1 2 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.70s elapsed; 22465639 expanded; 66056785 generated; solution length 64.510860
+Oracle: 0.96s elapsed; 8061736 expanded; 23674745 generated; solution length 64.510860
+IDA* on unit STP problem 4
+
+
+Weights validated
+
+IDA* searching from
+(4x4)4 7 14 13 10 3 9 12 11 5 6 15 1 2 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 42.000000; 0 expanded, 0 generated
+Starting iteration with bound 44.000000; 4 expanded, 10 generated
+Starting iteration with bound 46.000000; 144 expanded, 410 generated
+Starting iteration with bound 48.000000; 1480 expanded, 4239 generated
+Starting iteration with bound 50.000000; 12215 expanded, 35251 generated
+Starting iteration with bound 52.000000; 95290 expanded, 276811 generated
+Starting iteration with bound 54.000000; 730283 expanded, 2135466 generated
+Starting iteration with bound 56.000000; 5399569 expanded, 15880872 generated
+IDA*: 0.85s elapsed; 8104910 expanded; 23783921 generated; solution length 56.000000
+BTS on unit STP problem 4
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 7 14 13 10 3 9 12 11 5 6 15 1 2 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.84s elapsed; 8104910 expanded; 23783921 generated; solution length 56.000000
+Oracle: 0.48s elapsed; 4669286 expanded; 13745406 generated; solution length 56.000000
+BTS on non-unit STP problem 5
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 7 1 9 12 3 6 15 8 11 2 5 10 0 4 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.92s elapsed; 15394124 expanded; 46604933 generated; solution length 60.344827
+Oracle: 1.24s elapsed; 9930444 expanded; 30113094 generated; solution length 60.344827
+IDA* on unit STP problem 5
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 7 1 9 12 3 6 15 8 11 2 5 10 0 4 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 4 expanded, 10 generated
+Starting iteration with bound 40.000000; 22 expanded, 61 generated
+Starting iteration with bound 42.000000; 177 expanded, 516 generated
+Starting iteration with bound 44.000000; 1254 expanded, 3676 generated
+Starting iteration with bound 46.000000; 9268 expanded, 27485 generated
+Starting iteration with bound 48.000000; 66288 expanded, 198131 generated
+Starting iteration with bound 50.000000; 447491 expanded, 1344300 generated
+Starting iteration with bound 52.000000; 2886981 expanded, 8707959 generated
+IDA*: 0.43s elapsed; 3899943 expanded; 11788002 generated; solution length 52.000000
+BTS on unit STP problem 5
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 7 1 9 12 3 6 15 8 11 2 5 10 0 4 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.43s elapsed; 3899943 expanded; 11788002 generated; solution length 52.000000
+Oracle: 0.28s elapsed; 2439490 expanded; 7363659 generated; solution length 52.000000
+BTS on non-unit STP problem 6
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)2 11 15 5 13 4 6 7 12 8 10 1 9 3 14 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 22.35s elapsed; 179169394 expanded; 539180760 generated; solution length 60.526274
+Oracle: 11.05s elapsed; 88923259 expanded; 268124224 generated; solution length 60.526274
+IDA* on unit STP problem 6
+
+
+Weights validated
+
+IDA* searching from
+(4x4)2 11 15 5 13 4 6 7 12 8 10 1 9 3 14 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 30.000000; 0 expanded, 0 generated
+Starting iteration with bound 32.000000; 1 expanded, 2 generated
+Starting iteration with bound 34.000000; 13 expanded, 37 generated
+Starting iteration with bound 36.000000; 57 expanded, 165 generated
+Starting iteration with bound 38.000000; 283 expanded, 830 generated
+Starting iteration with bound 40.000000; 1363 expanded, 3999 generated
+Starting iteration with bound 42.000000; 7208 expanded, 21275 generated
+Starting iteration with bound 44.000000; 39922 expanded, 118126 generated
+Starting iteration with bound 46.000000; 224966 expanded, 668120 generated
+Starting iteration with bound 48.000000; 1281701 expanded, 3821860 generated
+Starting iteration with bound 50.000000; 7268436 expanded, 21744837 generated
+Starting iteration with bound 52.000000; 40499325 expanded, 121481166 generated
+IDA*: 8.51s elapsed; 77566293 expanded; 233649470 generated; solution length 52.000000
+BTS on unit STP problem 6
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)2 11 15 5 13 4 6 7 12 8 10 1 9 3 14 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.48s elapsed; 77566373 expanded; 233649704 generated; solution length 52.000000
+Oracle: 3.53s elapsed; 33230889 expanded; 99736329 generated; solution length 52.000000
+BTS on non-unit STP problem 7
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 11 15 3 8 0 4 2 6 13 9 5 14 1 10 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.41s elapsed; 27106948 expanded; 81811582 generated; solution length 57.320957
+Oracle: 1.42s elapsed; 11280804 expanded; 34062422 generated; solution length 57.320957
+IDA* on unit STP problem 7
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 11 15 3 8 0 4 2 6 13 9 5 14 1 10 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 8 expanded, 25 generated
+Starting iteration with bound 36.000000; 49 expanded, 146 generated
+Starting iteration with bound 38.000000; 305 expanded, 912 generated
+Starting iteration with bound 40.000000; 1855 expanded, 5596 generated
+Starting iteration with bound 42.000000; 10387 expanded, 31295 generated
+Starting iteration with bound 44.000000; 57789 expanded, 174059 generated
+Starting iteration with bound 46.000000; 313974 expanded, 947572 generated
+Starting iteration with bound 48.000000; 1685847 expanded, 5090832 generated
+Starting iteration with bound 50.000000; 8942630 expanded, 27027083 generated
+IDA*: 3.11s elapsed; 27825822 expanded; 84389897 generated; solution length 50.000000
+BTS on unit STP problem 7
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 11 15 3 8 0 4 2 6 13 9 5 14 1 10 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.11s elapsed; 27825822 expanded; 84389897 generated; solution length 50.000000
+Oracle: 0.78s elapsed; 7256783 expanded; 21936251 generated; solution length 50.000000
+BTS on non-unit STP problem 8
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 9 11 5 4 8 2 13 12 6 7 10 1 15 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.47s elapsed; 3774416 expanded; 11488181 generated; solution length 52.972681
+Oracle: 0.08s elapsed; 606443 expanded; 1843862 generated; solution length 52.972681
+IDA* on unit STP problem 8
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 14 9 11 5 4 8 2 13 12 6 7 10 1 15 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 2 expanded, 5 generated
+Starting iteration with bound 36.000000; 28 expanded, 82 generated
+Starting iteration with bound 38.000000; 293 expanded, 876 generated
+Starting iteration with bound 40.000000; 2537 expanded, 7709 generated
+Starting iteration with bound 42.000000; 18044 expanded, 54865 generated
+Starting iteration with bound 44.000000; 113298 expanded, 344842 generated
+Starting iteration with bound 46.000000; 656059 expanded, 1996912 generated
+IDA*: 0.19s elapsed; 1693833 expanded; 5171508 generated; solution length 46.000000
+BTS on unit STP problem 8
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 9 11 5 4 8 2 13 12 6 7 10 1 15 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.19s elapsed; 1693833 expanded; 5171508 generated; solution length 46.000000
+Oracle: 0.06s elapsed; 542761 expanded; 1652070 generated; solution length 46.000000
+BTS on non-unit STP problem 9
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 11 8 9 0 15 7 10 4 3 6 14 5 12 2 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 67.85s elapsed; 550390474 expanded; 1648468603 generated; solution length 68.901671
+Oracle: 24.77s elapsed; 199115188 expanded; 596989065 generated; solution length 68.901671
+IDA* on unit STP problem 9
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 11 8 9 0 15 7 10 4 3 6 14 5 12 2 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 5 expanded, 13 generated
+Starting iteration with bound 47.000000; 67 expanded, 191 generated
+Starting iteration with bound 49.000000; 1156 expanded, 3378 generated
+Starting iteration with bound 51.000000; 13963 expanded, 41249 generated
+Starting iteration with bound 53.000000; 140235 expanded, 416488 generated
+Starting iteration with bound 55.000000; 1284405 expanded, 3833353 generated
+Starting iteration with bound 57.000000; 10514848 expanded, 31479616 generated
+Starting iteration with bound 59.000000; 78907235 expanded, 236832271 generated
+IDA*: 25.97s elapsed; 236596537 expanded; 709052073 generated; solution length 59.000000
+BTS on unit STP problem 9
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 11 8 9 0 15 7 10 4 3 6 14 5 12 2 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 25.49s elapsed; 236596537 expanded; 709052073 generated; solution length 59.000000
+Oracle: 7.21s elapsed; 68392387 expanded; 205352655 generated; solution length 59.000000
+BTS on non-unit STP problem 10
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 9 13 14 6 3 7 12 10 8 4 0 15 2 11 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 10.32s elapsed; 85866141 expanded; 253675479 generated; solution length 67.298847
+Oracle: 7.41s elapsed; 61680018 expanded; 182394545 generated; solution length 67.298847
+IDA* on unit STP problem 10
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 9 13 14 6 3 7 12 10 8 4 0 15 2 11 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 56 expanded, 156 generated
+Starting iteration with bound 47.000000; 575 expanded, 1665 generated
+Starting iteration with bound 49.000000; 4638 expanded, 13395 generated
+Starting iteration with bound 51.000000; 35230 expanded, 102542 generated
+Starting iteration with bound 53.000000; 258091 expanded, 755258 generated
+Starting iteration with bound 55.000000; 1796663 expanded, 5276912 generated
+Starting iteration with bound 57.000000; 12074497 expanded, 35589169 generated
+IDA*: 1.84s elapsed; 17489371 expanded; 51435977 generated; solution length 57.000000
+BTS on unit STP problem 10
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 9 13 14 6 3 7 12 10 8 4 0 15 2 11 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.83s elapsed; 17489371 expanded; 51435977 generated; solution length 57.000000
+Oracle: 1.06s elapsed; 10277834 expanded; 30312257 generated; solution length 57.000000
+BTS on non-unit STP problem 11
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 1 9 6 4 8 12 5 7 2 3 0 10 11 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.11s elapsed; 874216 expanded; 2652310 generated; solution length 52.315340
+Oracle: 0.03s elapsed; 246116 expanded; 746841 generated; solution length 52.315340
+IDA* on unit STP problem 11
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 1 9 6 4 8 12 5 7 2 3 0 10 11 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 22 expanded, 66 generated
+Starting iteration with bound 39.000000; 168 expanded, 498 generated
+Starting iteration with bound 41.000000; 1173 expanded, 3497 generated
+Starting iteration with bound 43.000000; 7941 expanded, 23879 generated
+Starting iteration with bound 45.000000; 52207 expanded, 157391 generated
+IDA*: 0.01s elapsed; 74424 expanded; 225504 generated; solution length 45.000000
+BTS on unit STP problem 11
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 1 9 6 4 8 12 5 7 2 3 0 10 11 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.01s elapsed; 74424 expanded; 225504 generated; solution length 45.000000
+Oracle: 0.00s elapsed; 44266 expanded; 133512 generated; solution length 45.000000
+BTS on non-unit STP problem 12
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 6 5 2 10 0 15 14 1 4 13 12 9 8 11 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.11s elapsed; 25291585 expanded; 76125981 generated; solution length 53.269507
+Oracle: 1.03s elapsed; 8475072 expanded; 25448955 generated; solution length 53.269507
+IDA* on unit STP problem 12
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 6 5 2 10 0 15 14 1 4 13 12 9 8 11 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 409 expanded, 1203 generated
+Starting iteration with bound 40.000000; 6354 expanded, 18872 generated
+Starting iteration with bound 42.000000; 55058 expanded, 163989 generated
+Starting iteration with bound 44.000000; 370720 expanded, 1106340 generated
+Starting iteration with bound 46.000000; 2195901 expanded, 6565409 generated
+IDA*: 0.36s elapsed; 3330458 expanded; 9964907 generated; solution length 46.000000
+BTS on unit STP problem 12
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 6 5 2 10 0 15 14 1 4 13 12 9 8 11 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.36s elapsed; 3330458 expanded; 9964907 generated; solution length 46.000000
+Oracle: 0.19s elapsed; 1825181 expanded; 5459069 generated; solution length 46.000000
+BTS on non-unit STP problem 13
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 6 8 1 11 5 14 10 3 4 9 13 15 2 0 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 92.09s elapsed; 761418665 expanded; 2266108821 generated; solution length 68.253731
+Oracle: 56.61s elapsed; 469587952 expanded; 1397990857 generated; solution length 68.253731
+IDA* on unit STP problem 13
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 6 8 1 11 5 14 10 3 4 9 13 15 2 0 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 6 expanded, 16 generated
+Starting iteration with bound 45.000000; 70 expanded, 201 generated
+Starting iteration with bound 47.000000; 1204 expanded, 3529 generated
+Starting iteration with bound 49.000000; 11023 expanded, 32309 generated
+Starting iteration with bound 51.000000; 87479 expanded, 257720 generated
+Starting iteration with bound 53.000000; 619322 expanded, 1827985 generated
+Starting iteration with bound 55.000000; 4072959 expanded, 12048294 generated
+Starting iteration with bound 57.000000; 25468151 expanded, 75461772 generated
+Starting iteration with bound 59.000000; 153280272 expanded, 454842155 generated
+IDA*: 40.32s elapsed; 372785434 expanded; 1111696814 generated; solution length 59.000000
+BTS on unit STP problem 13
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 6 8 1 11 5 14 10 3 4 9 13 15 2 0 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 40.25s elapsed; 372785434 expanded; 1111696814 generated; solution length 59.000000
+Oracle: 13.36s elapsed; 127812121 expanded; 379380383 generated; solution length 59.000000
+BTS on non-unit STP problem 14
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 11 4 12 1 8 9 15 6 5 14 2 7 3 10 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 41.51s elapsed; 352935344 expanded; 1029645247 generated; solution length 70.670377
+Oracle: 13.35s elapsed; 114122783 expanded; 333261342 generated; solution length 70.670377
+IDA* on unit STP problem 14
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 11 4 12 1 8 9 15 6 5 14 2 7 3 10 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 44.000000; 0 expanded, 0 generated
+Starting iteration with bound 46.000000; 1 expanded, 2 generated
+Starting iteration with bound 48.000000; 39 expanded, 108 generated
+Starting iteration with bound 50.000000; 570 expanded, 1613 generated
+Starting iteration with bound 52.000000; 4907 expanded, 13937 generated
+Starting iteration with bound 54.000000; 39695 expanded, 113536 generated
+Starting iteration with bound 56.000000; 303455 expanded, 872414 generated
+Starting iteration with bound 58.000000; 2238235 expanded, 6468015 generated
+Starting iteration with bound 60.000000; 16039594 expanded, 46556099 generated
+Starting iteration with bound 62.000000; 111612970 expanded, 325269336 generated
+IDA*: 12.58s elapsed; 121473667 expanded; 354359810 generated; solution length 62.000000
+BTS on unit STP problem 14
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 11 4 12 1 8 9 15 6 5 14 2 7 3 10 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 12.52s elapsed; 121473683 expanded; 354359854 generated; solution length 62.000000
+Oracle: 9.66s elapsed; 95573376 expanded; 278713237 generated; solution length 62.000000
+BTS on non-unit STP problem 15
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 3 2 5 10 9 15 6 8 14 13 11 12 4 7 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.15s elapsed; 23645315 expanded; 73010360 generated; solution length 48.312211
+Oracle: 0.77s elapsed; 5990273 expanded; 18491361 generated; solution length 48.312211
+IDA* on unit STP problem 15
+
+
+Weights validated
+
+IDA* searching from
+(4x4)1 3 2 5 10 9 15 6 8 14 13 11 12 4 7 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 24.000000; 0 expanded, 0 generated
+Starting iteration with bound 26.000000; 15 expanded, 48 generated
+Starting iteration with bound 28.000000; 97 expanded, 299 generated
+Starting iteration with bound 30.000000; 420 expanded, 1291 generated
+Starting iteration with bound 32.000000; 1800 expanded, 5545 generated
+Starting iteration with bound 34.000000; 7559 expanded, 23241 generated
+Starting iteration with bound 36.000000; 31542 expanded, 96914 generated
+Starting iteration with bound 38.000000; 132656 expanded, 407754 generated
+Starting iteration with bound 40.000000; 562540 expanded, 1728905 generated
+Starting iteration with bound 42.000000; 2389568 expanded, 7342566 generated
+IDA*: 0.43s elapsed; 3832208 expanded; 11771227 generated; solution length 42.000000
+BTS on unit STP problem 15
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 3 2 5 10 9 15 6 8 14 13 11 12 4 7 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.43s elapsed; 3832208 expanded; 11771227 generated; solution length 42.000000
+Oracle: 0.20s elapsed; 1827028 expanded; 5613661 generated; solution length 42.000000
+BTS on non-unit STP problem 16
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 14 0 4 11 1 6 13 7 5 8 9 3 2 10 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 184.73s elapsed; 1601714433 expanded; 4596327713 generated; solution length 76.014932
+Oracle: 409.81s elapsed; 587294236 expanded; 1688328657 generated; solution length 76.014932
+IDA* on unit STP problem 16
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 14 0 4 11 1 6 13 7 5 8 9 3 2 10 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 46.000000; 0 expanded, 0 generated
+Starting iteration with bound 48.000000; 24 expanded, 65 generated
+Starting iteration with bound 50.000000; 124 expanded, 344 generated
+Starting iteration with bound 52.000000; 717 expanded, 2012 generated
+Starting iteration with bound 54.000000; 3870 expanded, 10863 generated
+Starting iteration with bound 56.000000; 22464 expanded, 63259 generated
+Starting iteration with bound 58.000000; 133032 expanded, 375452 generated
+Starting iteration with bound 60.000000; 808038 expanded, 2286967 generated
+Starting iteration with bound 62.000000; 5017771 expanded, 14243128 generated
+Starting iteration with bound 64.000000; 31813082 expanded, 90594526 generated
+Starting iteration with bound 66.000000; 205113930 expanded, 586162849 generated
+IDA*: 42.79s elapsed; 409165831 expanded; 1171603433 generated; solution length 66.000000
+BTS on unit STP problem 16
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 14 0 4 11 1 6 13 7 5 8 9 3 2 10 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 41.67s elapsed; 409165831 expanded; 1171603433 generated; solution length 66.000000
+Oracle: 315.41s elapsed; 173300848 expanded; 495568323 generated; solution length 66.000000
+BTS on non-unit STP problem 17
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 14 12 1 15 9 10 11 4 7 2 8 3 5 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.17s elapsed; 26656923 expanded; 78656035 generated; solution length 63.224381
+Oracle: 1.67s elapsed; 13998421 expanded; 41385465 generated; solution length 63.224381
+IDA* on unit STP problem 17
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 0 14 12 1 15 9 10 11 4 7 2 8 3 5 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 3 expanded, 8 generated
+Starting iteration with bound 47.000000; 371 expanded, 1072 generated
+Starting iteration with bound 49.000000; 4192 expanded, 12057 generated
+Starting iteration with bound 51.000000; 40663 expanded, 117605 generated
+Starting iteration with bound 53.000000; 362042 expanded, 1055131 generated
+Starting iteration with bound 55.000000; 2909269 expanded, 8527163 generated
+IDA*: 0.57s elapsed; 5447597 expanded; 16074790 generated; solution length 55.000000
+BTS on unit STP problem 17
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 14 12 1 15 9 10 11 4 7 2 8 3 5 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.57s elapsed; 5447597 expanded; 16074790 generated; solution length 55.000000
+Oracle: 0.26s elapsed; 2547227 expanded; 7472032 generated; solution length 55.000000
+BTS on non-unit STP problem 18
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 11 8 3 14 0 6 15 1 4 13 9 5 12 2 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.25s elapsed; 2001761 expanded; 6067480 generated; solution length 53.024290
+Oracle: 0.10s elapsed; 796487 expanded; 2412678 generated; solution length 53.024290
+IDA* on unit STP problem 18
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 11 8 3 14 0 6 15 1 4 13 9 5 12 2 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 96 expanded, 283 generated
+Starting iteration with bound 40.000000; 1166 expanded, 3487 generated
+Starting iteration with bound 42.000000; 9828 expanded, 29626 generated
+Starting iteration with bound 44.000000; 66867 expanded, 202244 generated
+Starting iteration with bound 46.000000; 421001 expanded, 1275963 generated
+IDA*: 0.12s elapsed; 1082031 expanded; 3282262 generated; solution length 46.000000
+BTS on unit STP problem 18
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 11 8 3 14 0 6 15 1 4 13 9 5 12 2 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.12s elapsed; 1082031 expanded; 3282262 generated; solution length 46.000000
+Oracle: 0.04s elapsed; 354134 expanded; 1073719 generated; solution length 46.000000
+BTS on non-unit STP problem 19
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 12 11 3 13 7 9 15 2 14 8 10 4 1 5 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 4.21s elapsed; 33866821 expanded; 102037450 generated; solution length 60.418912
+Oracle: 1.86s elapsed; 15032672 expanded; 45335523 generated; solution length 60.418912
+IDA* on unit STP problem 19
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 12 11 3 13 7 9 15 2 14 8 10 4 1 5 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 1 expanded, 2 generated
+Starting iteration with bound 40.000000; 5 expanded, 13 generated
+Starting iteration with bound 42.000000; 214 expanded, 629 generated
+Starting iteration with bound 44.000000; 2254 expanded, 6645 generated
+Starting iteration with bound 46.000000; 19415 expanded, 57739 generated
+Starting iteration with bound 48.000000; 140060 expanded, 417983 generated
+Starting iteration with bound 50.000000; 942017 expanded, 2822377 generated
+Starting iteration with bound 52.000000; 5984649 expanded, 17983756 generated
+IDA*: 1.62s elapsed; 14866300 expanded; 44785330 generated; solution length 52.000000
+BTS on unit STP problem 19
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 12 11 3 13 7 9 15 2 14 8 10 4 1 5 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.61s elapsed; 14866308 expanded; 44785354 generated; solution length 52.000000
+Oracle: 0.53s elapsed; 5042632 expanded; 15161379 generated; solution length 52.000000
+BTS on non-unit STP problem 20
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 8 14 6 11 4 7 0 5 1 10 15 3 13 9 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 328.12s elapsed; 242255933 expanded; 716588526 generated; solution length 63.618810
+Oracle: 10.44s elapsed; 83596459 expanded; 247526184 generated; solution length 63.618810
+IDA* on unit STP problem 20
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 8 14 6 11 4 7 0 5 1 10 15 3 13 9 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 5 expanded, 14 generated
+Starting iteration with bound 38.000000; 41 expanded, 118 generated
+Starting iteration with bound 40.000000; 223 expanded, 642 generated
+Starting iteration with bound 42.000000; 1176 expanded, 3413 generated
+Starting iteration with bound 44.000000; 6197 expanded, 18033 generated
+Starting iteration with bound 46.000000; 31864 expanded, 93058 generated
+Starting iteration with bound 48.000000; 167875 expanded, 491985 generated
+Starting iteration with bound 50.000000; 888338 expanded, 2611108 generated
+Starting iteration with bound 52.000000; 4709536 expanded, 13881205 generated
+Starting iteration with bound 54.000000; 25010464 expanded, 73913664 generated
+IDA*: 13.05s elapsed; 119812991 expanded; 355120941 generated; solution length 54.000000
+BTS on unit STP problem 20
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 8 14 6 11 4 7 0 5 1 10 15 3 13 9 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 310.58s elapsed; 119812991 expanded; 355120941 generated; solution length 54.000000
+Oracle: 2.11s elapsed; 20300928 expanded; 60032459 generated; solution length 54.000000
+BTS on non-unit STP problem 21
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 3 9 1 15 8 4 5 11 7 10 13 0 2 12 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 194.21s elapsed; 1577232286 expanded; 4757075805 generated; solution length 68.786729
+Oracle: 46.55s elapsed; 380248740 expanded; 1144773773 generated; solution length 68.786729
+IDA* on unit STP problem 21
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 3 9 1 15 8 4 5 11 7 10 13 0 2 12 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 1 expanded, 2 generated
+Starting iteration with bound 45.000000; 29 expanded, 79 generated
+Starting iteration with bound 47.000000; 383 expanded, 1110 generated
+Starting iteration with bound 49.000000; 3833 expanded, 11292 generated
+Starting iteration with bound 51.000000; 31629 expanded, 94015 generated
+Starting iteration with bound 53.000000; 239110 expanded, 714007 generated
+Starting iteration with bound 55.000000; 1691616 expanded, 5064133 generated
+Starting iteration with bound 57.000000; 11383620 expanded, 34146512 generated
+Starting iteration with bound 59.000000; 73751412 expanded, 221572950 generated
+IDA*: 17.16s elapsed; 156770489 expanded; 472960992 generated; solution length 59.000000
+BTS on unit STP problem 21
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 3 9 1 15 8 4 5 11 7 10 13 0 2 12 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 17.05s elapsed; 156770505 expanded; 472961039 generated; solution length 59.000000
+Oracle: 6.62s elapsed; 62367792 expanded; 187426438 generated; solution length 59.000000
+BTS on non-unit STP problem 22
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 9 3 11 0 13 2 14 5 6 4 7 8 15 1 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.81s elapsed; 22943171 expanded; 68860573 generated; solution length 57.204326
+Oracle: 1.74s elapsed; 14252235 expanded; 42821590 generated; solution length 57.204326
+IDA* on unit STP problem 22
+
+
+Weights validated
+
+IDA* searching from
+(4x4)10 9 3 11 0 13 2 14 5 6 4 7 8 15 1 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 33.000000; 0 expanded, 0 generated
+Starting iteration with bound 35.000000; 4 expanded, 10 generated
+Starting iteration with bound 37.000000; 36 expanded, 101 generated
+Starting iteration with bound 39.000000; 510 expanded, 1497 generated
+Starting iteration with bound 41.000000; 3847 expanded, 11368 generated
+Starting iteration with bound 43.000000; 25038 expanded, 74282 generated
+Starting iteration with bound 45.000000; 150379 expanded, 448319 generated
+Starting iteration with bound 47.000000; 858305 expanded, 2565739 generated
+Starting iteration with bound 49.000000; 4733839 expanded, 14186527 generated
+IDA*: 0.77s elapsed; 7047471 expanded; 21132022 generated; solution length 49.000000
+BTS on unit STP problem 22
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 9 3 11 0 13 2 14 5 6 4 7 8 15 1 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.76s elapsed; 7047471 expanded; 21132022 generated; solution length 49.000000
+Oracle: 0.41s elapsed; 3875534 expanded; 11620788 generated; solution length 49.000000
+BTS on non-unit STP problem 23
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 3 14 13 4 1 10 8 5 12 9 11 2 15 6 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 21.89s elapsed; 176754231 expanded; 533659376 generated; solution length 62.131407
+Oracle: 5.80s elapsed; 47238913 expanded; 142619197 generated; solution length 62.131407
+IDA* on unit STP problem 23
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 3 14 13 4 1 10 8 5 12 9 11 2 15 6 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 1 expanded, 2 generated
+Starting iteration with bound 38.000000; 21 expanded, 59 generated
+Starting iteration with bound 40.000000; 143 expanded, 415 generated
+Starting iteration with bound 42.000000; 807 expanded, 2352 generated
+Starting iteration with bound 44.000000; 4146 expanded, 12172 generated
+Starting iteration with bound 46.000000; 22291 expanded, 65774 generated
+Starting iteration with bound 48.000000; 120141 expanded, 355675 generated
+Starting iteration with bound 50.000000; 656585 expanded, 1953064 generated
+Starting iteration with bound 52.000000; 3591703 expanded, 10724079 generated
+Starting iteration with bound 54.000000; 19682090 expanded, 58962788 generated
+IDA*: 2.46s elapsed; 22659912 expanded; 67937402 generated; solution length 54.000000
+BTS on unit STP problem 23
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 3 14 13 4 1 10 8 5 12 9 11 2 15 6 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.45s elapsed; 22659928 expanded; 67937452 generated; solution length 54.000000
+Oracle: 1.70s elapsed; 16090387 expanded; 48238709 generated; solution length 54.000000
+BTS on non-unit STP problem 24
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 4 2 7 1 0 10 15 6 9 14 8 3 13 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 20.26s elapsed; 167307555 expanded; 497124208 generated; solution length 59.612898
+Oracle: 10.35s elapsed; 86444013 expanded; 256849016 generated; solution length 59.612898
+IDA* on unit STP problem 24
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 4 2 7 1 0 10 15 6 9 14 8 3 13 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 19 expanded, 53 generated
+Starting iteration with bound 36.000000; 93 expanded, 275 generated
+Starting iteration with bound 38.000000; 494 expanded, 1458 generated
+Starting iteration with bound 40.000000; 2267 expanded, 6637 generated
+Starting iteration with bound 42.000000; 11094 expanded, 32628 generated
+Starting iteration with bound 44.000000; 56546 expanded, 166341 generated
+Starting iteration with bound 46.000000; 286789 expanded, 845087 generated
+Starting iteration with bound 48.000000; 1472386 expanded, 4348634 generated
+Starting iteration with bound 50.000000; 7628038 expanded, 22586742 generated
+Starting iteration with bound 52.000000; 39571928 expanded, 117454663 generated
+IDA*: 7.31s elapsed; 68451145 expanded; 202822431 generated; solution length 52.000000
+BTS on unit STP problem 24
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 4 2 7 1 0 10 15 6 9 14 8 3 13 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.27s elapsed; 68451145 expanded; 202822431 generated; solution length 52.000000
+Oracle: 3.35s elapsed; 31943890 expanded; 94867921 generated; solution length 52.000000
+BTS on non-unit STP problem 25
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 3 12 15 13 14 8 0 10 9 6 1 4 2 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 48.67s elapsed; 408860991 expanded; 1203553245 generated; solution length 66.151203
+Oracle: 11.56s elapsed; 97823645 expanded; 287935866 generated; solution length 66.151203
+IDA* on unit STP problem 25
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 7 3 12 15 13 14 8 0 10 9 6 1 4 2 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 40.000000; 0 expanded, 0 generated
+Starting iteration with bound 42.000000; 5 expanded, 13 generated
+Starting iteration with bound 44.000000; 70 expanded, 194 generated
+Starting iteration with bound 46.000000; 651 expanded, 1825 generated
+Starting iteration with bound 48.000000; 4734 expanded, 13398 generated
+Starting iteration with bound 50.000000; 36836 expanded, 105116 generated
+Starting iteration with bound 52.000000; 289348 expanded, 834211 generated
+Starting iteration with bound 54.000000; 2153662 expanded, 6254951 generated
+Starting iteration with bound 56.000000; 15232414 expanded, 44516174 generated
+Starting iteration with bound 58.000000; 102949591 expanded, 302409010 generated
+IDA*: 25.24s elapsed; 241140749 expanded; 708627405 generated; solution length 58.000000
+BTS on unit STP problem 25
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 3 12 15 13 14 8 0 10 9 6 1 4 2 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 25.21s elapsed; 241140749 expanded; 708627405 generated; solution length 58.000000
+Oracle: 8.98s elapsed; 87717177 expanded; 257892836 generated; solution length 58.000000
+BTS on non-unit STP problem 26
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 1 8 15 2 6 0 3 9 12 10 13 4 7 5 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 41.87s elapsed; 334474565 expanded; 1016173324 generated; solution length 60.131173
+Oracle: 11.24s elapsed; 90201950 expanded; 274015205 generated; solution length 60.131173
+IDA* on unit STP problem 26
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 1 8 15 2 6 0 3 9 12 10 13 4 7 5 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 33.000000; 0 expanded, 0 generated
+Starting iteration with bound 35.000000; 5 expanded, 16 generated
+Starting iteration with bound 37.000000; 69 expanded, 209 generated
+Starting iteration with bound 39.000000; 420 expanded, 1261 generated
+Starting iteration with bound 41.000000; 2508 expanded, 7549 generated
+Starting iteration with bound 43.000000; 14410 expanded, 43442 generated
+Starting iteration with bound 45.000000; 83202 expanded, 251363 generated
+Starting iteration with bound 47.000000; 477011 expanded, 1443954 generated
+Starting iteration with bound 49.000000; 2682566 expanded, 8132779 generated
+Starting iteration with bound 51.000000; 14771830 expanded, 44829596 generated
+Starting iteration with bound 53.000000; 79876713 expanded, 242605065 generated
+IDA*: 9.63s elapsed; 86984780 expanded; 264084526 generated; solution length 53.000000
+BTS on unit STP problem 26
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 1 8 15 2 6 0 3 9 12 10 13 4 7 5 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 9.58s elapsed; 86984780 expanded; 264084526 generated; solution length 53.000000
+Oracle: 7.14s elapsed; 65104883 expanded; 197775469 generated; solution length 53.000000
+BTS on non-unit STP problem 27
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 14 6 12 4 5 1 0 9 3 10 2 15 11 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.27s elapsed; 10634759 expanded; 31351590 generated; solution length 59.345142
+Oracle: 0.45s elapsed; 3759945 expanded; 11130213 generated; solution length 59.345142
+IDA* on unit STP problem 27
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 14 6 12 4 5 1 0 9 3 10 2 15 11 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 4 expanded, 10 generated
+Starting iteration with bound 40.000000; 36 expanded, 99 generated
+Starting iteration with bound 42.000000; 231 expanded, 662 generated
+Starting iteration with bound 44.000000; 1398 expanded, 3994 generated
+Starting iteration with bound 46.000000; 9665 expanded, 27895 generated
+Starting iteration with bound 48.000000; 65646 expanded, 190484 generated
+Starting iteration with bound 50.000000; 431285 expanded, 1258318 generated
+Starting iteration with bound 52.000000; 2725688 expanded, 7984957 generated
+IDA*: 0.46s elapsed; 4377686 expanded; 12821918 generated; solution length 52.000000
+BTS on unit STP problem 27
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 14 6 12 4 5 1 0 9 3 10 2 15 11 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.45s elapsed; 4377686 expanded; 12821918 generated; solution length 52.000000
+Oracle: 0.23s elapsed; 2294403 expanded; 6726639 generated; solution length 52.000000
+BTS on non-unit STP problem 28
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 8 0 2 15 1 4 14 3 10 7 5 11 13 6 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.80s elapsed; 64380279 expanded; 191669399 generated; solution length 61.104958
+Oracle: 2.20s elapsed; 18346926 expanded; 54503595 generated; solution length 61.104958
+IDA* on unit STP problem 28
+
+
+Weights validated
+
+IDA* searching from
+(4x4)9 8 0 2 15 1 4 14 3 10 7 5 11 13 6 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 2 expanded, 5 generated
+Starting iteration with bound 42.000000; 165 expanded, 481 generated
+Starting iteration with bound 44.000000; 1588 expanded, 4573 generated
+Starting iteration with bound 46.000000; 12388 expanded, 36189 generated
+Starting iteration with bound 48.000000; 85897 expanded, 252556 generated
+Starting iteration with bound 50.000000; 552290 expanded, 1629962 generated
+Starting iteration with bound 52.000000; 3410281 expanded, 10097286 generated
+Starting iteration with bound 54.000000; 20347757 expanded, 60415550 generated
+IDA*: 7.39s elapsed; 68822465 expanded; 204707062 generated; solution length 54.000000
+BTS on unit STP problem 28
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 8 0 2 15 1 4 14 3 10 7 5 11 13 6 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.34s elapsed; 68822465 expanded; 204707062 generated; solution length 54.000000
+Oracle: 1.77s elapsed; 16937476 expanded; 50318264 generated; solution length 54.000000
+BTS on non-unit STP problem 29
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 15 2 6 1 14 4 8 5 3 7 0 10 13 9 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.29s elapsed; 2310229 expanded; 6942422 generated; solution length 53.842859
+Oracle: 0.12s elapsed; 989620 expanded; 2977701 generated; solution length 53.842859
+IDA* on unit STP problem 29
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 15 2 6 1 14 4 8 5 3 7 0 10 13 9 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 31 expanded, 93 generated
+Starting iteration with bound 39.000000; 259 expanded, 774 generated
+Starting iteration with bound 41.000000; 1889 expanded, 5657 generated
+Starting iteration with bound 43.000000; 12931 expanded, 38667 generated
+Starting iteration with bound 45.000000; 83585 expanded, 250588 generated
+Starting iteration with bound 47.000000; 505247 expanded, 1515349 generated
+IDA*: 0.13s elapsed; 1208603 expanded; 3632643 generated; solution length 47.000000
+BTS on unit STP problem 29
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 15 2 6 1 14 4 8 5 3 7 0 10 13 9 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.13s elapsed; 1208603 expanded; 3632643 generated; solution length 47.000000
+Oracle: 0.04s elapsed; 421662 expanded; 1264761 generated; solution length 47.000000
+BTS on non-unit STP problem 30
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 8 15 13 1 0 5 4 6 3 2 11 9 7 14 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.26s elapsed; 2167922 expanded; 6370096 generated; solution length 58.000683
+Oracle: 0.12s elapsed; 1018012 expanded; 2985739 generated; solution length 58.000683
+IDA* on unit STP problem 30
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 8 15 13 1 0 5 4 6 3 2 11 9 7 14 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 46 expanded, 132 generated
+Starting iteration with bound 42.000000; 305 expanded, 876 generated
+Starting iteration with bound 44.000000; 1848 expanded, 5347 generated
+Starting iteration with bound 46.000000; 11165 expanded, 32576 generated
+Starting iteration with bound 48.000000; 69756 expanded, 204537 generated
+Starting iteration with bound 50.000000; 438556 expanded, 1291629 generated
+IDA*: 0.19s elapsed; 1762998 expanded; 5209403 generated; solution length 50.000000
+BTS on unit STP problem 30
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 8 15 13 1 0 5 4 6 3 2 11 9 7 14 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.18s elapsed; 1762998 expanded; 5209403 generated; solution length 50.000000
+Oracle: 0.04s elapsed; 368800 expanded; 1087092 generated; solution length 50.000000
+BTS on non-unit STP problem 31
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 10 9 4 13 6 5 8 2 12 7 0 1 3 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 48.54s elapsed; 404627276 expanded; 1194266712 generated; solution length 68.840931
+Oracle: 46.57s elapsed; 188529200 expanded; 555870145 generated; solution length 68.840931
+IDA* on unit STP problem 31
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 10 9 4 13 6 5 8 2 12 7 0 1 3 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 13 expanded, 37 generated
+Starting iteration with bound 47.000000; 200 expanded, 566 generated
+Starting iteration with bound 49.000000; 2666 expanded, 7685 generated
+Starting iteration with bound 51.000000; 25825 expanded, 74925 generated
+Starting iteration with bound 53.000000; 215878 expanded, 629783 generated
+Starting iteration with bound 55.000000; 1631381 expanded, 4779066 generated
+Starting iteration with bound 57.000000; 11502750 expanded, 33816123 generated
+Starting iteration with bound 59.000000; 77015983 expanded, 227112691 generated
+IDA*: 21.13s elapsed; 200857451 expanded; 593475192 generated; solution length 59.000000
+BTS on unit STP problem 31
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 10 9 4 13 6 5 8 2 12 7 0 1 3 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 319.48s elapsed; 200857451 expanded; 593475192 generated; solution length 59.000000
+Oracle: 6.74s elapsed; 65513233 expanded; 193296568 generated; solution length 59.000000
+BTS on non-unit STP problem 32
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 3 5 15 11 6 13 9 0 10 2 12 4 1 7 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 30.65s elapsed; 255297734 expanded; 750031911 generated; solution length 68.990611
+Oracle: 19.05s elapsed; 159299672 expanded; 468702336 generated; solution length 68.990611
+IDA* on unit STP problem 32
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 3 5 15 11 6 13 9 0 10 2 12 4 1 7 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 42.000000; 0 expanded, 0 generated
+Starting iteration with bound 44.000000; 4 expanded, 10 generated
+Starting iteration with bound 46.000000; 63 expanded, 181 generated
+Starting iteration with bound 48.000000; 728 expanded, 2090 generated
+Starting iteration with bound 50.000000; 5802 expanded, 16677 generated
+Starting iteration with bound 52.000000; 42786 expanded, 123477 generated
+Starting iteration with bound 54.000000; 301367 expanded, 873094 generated
+Starting iteration with bound 56.000000; 2053429 expanded, 5971517 generated
+Starting iteration with bound 58.000000; 13658639 expanded, 39871719 generated
+Starting iteration with bound 60.000000; 88940213 expanded, 260556590 generated
+IDA*: 314.89s elapsed; 154559902 expanded; 454727955 generated; solution length 60.000000
+BTS on unit STP problem 32
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 3 5 15 11 6 13 9 0 10 2 12 4 1 7 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 16.43s elapsed; 154559902 expanded; 454727955 generated; solution length 60.000000
+Oracle: 7.68s elapsed; 75281574 expanded; 220684871 generated; solution length 60.000000
+BTS on non-unit STP problem 33
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 11 7 8 13 2 5 4 1 10 3 9 14 0 12 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.39s elapsed; 27611238 expanded; 82907078 generated; solution length 60.562166
+Oracle: 1.47s elapsed; 11967485 expanded; 35970356 generated; solution length 60.562166
+IDA* on unit STP problem 33
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 11 7 8 13 2 5 4 1 10 3 9 14 0 12 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 3 expanded, 8 generated
+Starting iteration with bound 40.000000; 20 expanded, 57 generated
+Starting iteration with bound 42.000000; 290 expanded, 833 generated
+Starting iteration with bound 44.000000; 2488 expanded, 7282 generated
+Starting iteration with bound 46.000000; 19332 expanded, 57143 generated
+Starting iteration with bound 48.000000; 139122 expanded, 413613 generated
+Starting iteration with bound 50.000000; 948391 expanded, 2832054 generated
+Starting iteration with bound 52.000000; 6189133 expanded, 18551887 generated
+IDA*: 2.60s elapsed; 23936150 expanded; 71796979 generated; solution length 52.000000
+BTS on unit STP problem 33
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 11 7 8 13 2 5 4 1 10 3 9 14 0 12 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.57s elapsed; 23936150 expanded; 71796979 generated; solution length 52.000000
+Oracle: 0.55s elapsed; 5240742 expanded; 15719833 generated; solution length 52.000000
+BTS on non-unit STP problem 34
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 6 12 14 3 2 15 8 4 5 13 9 0 7 11 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 308.18s elapsed; 81873389 expanded; 243023557 generated; solution length 62.430521
+Oracle: 5.65s elapsed; 45761169 expanded; 136473532 generated; solution length 62.430521
+IDA* on unit STP problem 34
+
+
+Weights validated
+
+IDA* searching from
+(4x4)1 6 12 14 3 2 15 8 4 5 13 9 0 7 11 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 1 expanded, 2 generated
+Starting iteration with bound 43.000000; 4 expanded, 10 generated
+Starting iteration with bound 45.000000; 545 expanded, 1547 generated
+Starting iteration with bound 47.000000; 6123 expanded, 17580 generated
+Starting iteration with bound 49.000000; 52158 expanded, 151445 generated
+Starting iteration with bound 51.000000; 389857 expanded, 1140346 generated
+Starting iteration with bound 53.000000; 2635764 expanded, 7747624 generated
+Starting iteration with bound 55.000000; 16768105 expanded, 49488491 generated
+IDA*: 3.46s elapsed; 31702742 expanded; 93290719 generated; solution length 55.000000
+BTS on unit STP problem 34
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 6 12 14 3 2 15 8 4 5 13 9 0 7 11 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.37s elapsed; 31702750 expanded; 93290741 generated; solution length 55.000000
+Oracle: 1.47s elapsed; 14132341 expanded; 41740867 generated; solution length 55.000000
+BTS on non-unit STP problem 35
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 6 0 4 7 3 15 1 13 9 8 11 2 14 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.76s elapsed; 30460295 expanded; 90310802 generated; solution length 60.426675
+Oracle: 1.31s elapsed; 10727435 expanded; 31731261 generated; solution length 60.426675
+IDA* on unit STP problem 35
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 6 0 4 7 3 15 1 13 9 8 11 2 14 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 30 expanded, 89 generated
+Starting iteration with bound 40.000000; 261 expanded, 767 generated
+Starting iteration with bound 42.000000; 1705 expanded, 5017 generated
+Starting iteration with bound 44.000000; 10632 expanded, 31359 generated
+Starting iteration with bound 46.000000; 60471 expanded, 178530 generated
+Starting iteration with bound 48.000000; 335607 expanded, 992675 generated
+Starting iteration with bound 50.000000; 1836524 expanded, 5441630 generated
+Starting iteration with bound 52.000000; 9916734 expanded, 29437965 generated
+IDA*: 1.08s elapsed; 9970167 expanded; 29598194 generated; solution length 52.000000
+BTS on unit STP problem 35
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 6 0 4 7 3 15 1 13 9 8 11 2 14 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.06s elapsed; 9970167 expanded; 29598194 generated; solution length 52.000000
+Oracle: 0.84s elapsed; 8080210 expanded; 23996335 generated; solution length 52.000000
+BTS on non-unit STP problem 36
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 1 7 12 11 0 10 5 9 15 6 13 14 2 3 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 373.78s elapsed; 625669844 expanded; 1855971819 generated; solution length 66.538901
+Oracle: 338.08s elapsed; 333137327 expanded; 987317512 generated; solution length 66.538901
+IDA* on unit STP problem 36
+
+
+Weights validated
+
+IDA* searching from
+(4x4)8 1 7 12 11 0 10 5 9 15 6 13 14 2 3 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 40.000000; 0 expanded, 0 generated
+Starting iteration with bound 42.000000; 3 expanded, 9 generated
+Starting iteration with bound 44.000000; 130 expanded, 378 generated
+Starting iteration with bound 46.000000; 1096 expanded, 3156 generated
+Starting iteration with bound 48.000000; 9044 expanded, 26273 generated
+Starting iteration with bound 50.000000; 70596 expanded, 206148 generated
+Starting iteration with bound 52.000000; 493854 expanded, 1448335 generated
+Starting iteration with bound 54.000000; 3312182 expanded, 9754246 generated
+Starting iteration with bound 56.000000; 21496419 expanded, 63553613 generated
+Starting iteration with bound 58.000000; 135875684 expanded, 403121072 generated
+IDA*: 18.95s elapsed; 178103450 expanded; 528040686 generated; solution length 58.000000
+BTS on unit STP problem 36
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 1 7 12 11 0 10 5 9 15 6 13 14 2 3 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 18.93s elapsed; 178103450 expanded; 528040686 generated; solution length 58.000000
+Oracle: 11.88s elapsed; 114379265 expanded; 339567459 generated; solution length 58.000000
+BTS on non-unit STP problem 37
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 15 8 2 13 6 3 12 11 0 4 10 9 5 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.14s elapsed; 9679448 expanded; 28394352 generated; solution length 60.826192
+Oracle: 0.46s elapsed; 3914459 expanded; 11532357 generated; solution length 60.826192
+IDA* on unit STP problem 37
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 15 8 2 13 6 3 12 11 0 4 10 9 5 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 44 expanded, 122 generated
+Starting iteration with bound 45.000000; 577 expanded, 1639 generated
+Starting iteration with bound 47.000000; 4974 expanded, 14280 generated
+Starting iteration with bound 49.000000; 40131 expanded, 116003 generated
+Starting iteration with bound 51.000000; 300242 expanded, 872946 generated
+Starting iteration with bound 53.000000; 2143199 expanded, 6261822 generated
+IDA*: 0.49s elapsed; 4681522 expanded; 13728975 generated; solution length 53.000000
+BTS on unit STP problem 37
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 15 8 2 13 6 3 12 11 0 4 10 9 5 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.49s elapsed; 4681522 expanded; 13728975 generated; solution length 53.000000
+Oracle: 0.19s elapsed; 1842957 expanded; 5388876 generated; solution length 53.000000
+BTS on non-unit STP problem 38
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 0 4 10 1 14 15 3 12 6 5 7 11 13 8 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.34s elapsed; 26881101 expanded; 81164398 generated; solution length 56.401436
+Oracle: 1.99s elapsed; 16089513 expanded; 48675249 generated; solution length 56.401436
+IDA* on unit STP problem 38
+
+
+Weights validated
+
+IDA* searching from
+(4x4)9 0 4 10 1 14 15 3 12 6 5 7 11 13 8 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 100 expanded, 313 generated
+Starting iteration with bound 39.000000; 814 expanded, 2423 generated
+Starting iteration with bound 41.000000; 5294 expanded, 15872 generated
+Starting iteration with bound 43.000000; 31677 expanded, 94806 generated
+Starting iteration with bound 45.000000; 179285 expanded, 537837 generated
+Starting iteration with bound 47.000000; 990972 expanded, 2977053 generated
+Starting iteration with bound 49.000000; 5321669 expanded, 16019793 generated
+IDA*: 0.65s elapsed; 5837381 expanded; 17576478 generated; solution length 49.000000
+BTS on unit STP problem 38
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 0 4 10 1 14 15 3 12 6 5 7 11 13 8 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.65s elapsed; 5837381 expanded; 17576478 generated; solution length 49.000000
+Oracle: 0.47s elapsed; 4330697 expanded; 13042740 generated; solution length 49.000000
+BTS on non-unit STP problem 39
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 5 1 14 4 12 10 0 2 7 13 3 9 15 6 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 190.57s elapsed; 354041292 expanded; 1062835058 generated; solution length 62.061902
+Oracle: 12.61s elapsed; 101597119 expanded; 305239169 generated; solution length 62.061902
+IDA* on unit STP problem 39
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 5 1 14 4 12 10 0 2 7 13 3 9 15 6 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 4 expanded, 10 generated
+Starting iteration with bound 40.000000; 42 expanded, 121 generated
+Starting iteration with bound 42.000000; 442 expanded, 1290 generated
+Starting iteration with bound 44.000000; 3425 expanded, 10086 generated
+Starting iteration with bound 46.000000; 22860 expanded, 67582 generated
+Starting iteration with bound 48.000000; 145577 expanded, 431906 generated
+Starting iteration with bound 50.000000; 892764 expanded, 2656286 generated
+Starting iteration with bound 52.000000; 5324815 expanded, 15889922 generated
+Starting iteration with bound 54.000000; 31022102 expanded, 92782500 generated
+IDA*: 7.27s elapsed; 67191286 expanded; 200489205 generated; solution length 54.000000
+BTS on unit STP problem 39
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 5 1 14 4 12 10 0 2 7 13 3 9 15 6 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.23s elapsed; 67191286 expanded; 200489205 generated; solution length 54.000000
+Oracle: 2.73s elapsed; 25697287 expanded; 76892578 generated; solution length 54.000000
+BTS on non-unit STP problem 40
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 13 10 9 11 3 15 6 0 1 2 14 12 5 4 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 17.45s elapsed; 139090354 expanded; 421800825 generated; solution length 62.685141
+Oracle: 4.53s elapsed; 36509176 expanded; 110654296 generated; solution length 62.685141
+IDA* on unit STP problem 40
+
+
+Weights validated
+
+IDA* searching from
+(4x4)8 13 10 9 11 3 15 6 0 1 2 14 12 5 4 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 3 expanded, 8 generated
+Starting iteration with bound 40.000000; 24 expanded, 73 generated
+Starting iteration with bound 42.000000; 217 expanded, 638 generated
+Starting iteration with bound 44.000000; 1657 expanded, 4932 generated
+Starting iteration with bound 46.000000; 11996 expanded, 35848 generated
+Starting iteration with bound 48.000000; 84306 expanded, 253047 generated
+Starting iteration with bound 50.000000; 563395 expanded, 1696347 generated
+Starting iteration with bound 52.000000; 3639477 expanded, 10990659 generated
+Starting iteration with bound 54.000000; 22754168 expanded, 68886993 generated
+IDA*: 4.71s elapsed; 42816704 expanded; 130037211 generated; solution length 54.000000
+BTS on unit STP problem 40
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 13 10 9 11 3 15 6 0 1 2 14 12 5 4 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 4.70s elapsed; 42816704 expanded; 130037211 generated; solution length 54.000000
+Oracle: 2.05s elapsed; 19114691 expanded; 57896334 generated; solution length 54.000000
+BTS on non-unit STP problem 41
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 5 7 2 9 14 12 13 0 3 6 11 8 1 15 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.07s elapsed; 602068 expanded; 1800910 generated; solution length 49.513122
+Oracle: 0.05s elapsed; 405681 expanded; 1214616 generated; solution length 49.513122
+IDA* on unit STP problem 41
+
+
+Weights validated
+
+IDA* searching from
+(4x4)4 5 7 2 9 14 12 13 0 3 6 11 8 1 15 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 30.000000; 0 expanded, 0 generated
+Starting iteration with bound 32.000000; 4 expanded, 10 generated
+Starting iteration with bound 34.000000; 74 expanded, 219 generated
+Starting iteration with bound 36.000000; 445 expanded, 1318 generated
+Starting iteration with bound 38.000000; 2895 expanded, 8596 generated
+Starting iteration with bound 40.000000; 17293 expanded, 51553 generated
+Starting iteration with bound 42.000000; 97565 expanded, 291284 generated
+IDA*: 0.01s elapsed; 125489 expanded; 374722 generated; solution length 42.000000
+BTS on unit STP problem 41
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 5 7 2 9 14 12 13 0 3 6 11 8 1 15 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.01s elapsed; 125489 expanded; 374722 generated; solution length 42.000000
+Oracle: 0.01s elapsed; 80272 expanded; 239731 generated; solution length 42.000000
+BTS on non-unit STP problem 42
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 15 14 13 1 9 10 4 3 6 2 12 7 5 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.70s elapsed; 75357979 expanded; 217905422 generated; solution length 72.898872
+Oracle: 2.80s elapsed; 24655800 expanded; 71119061 generated; solution length 72.898872
+IDA* on unit STP problem 42
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 15 14 13 1 9 10 4 3 6 2 12 7 5 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 48.000000; 0 expanded, 0 generated
+Starting iteration with bound 50.000000; 2 expanded, 5 generated
+Starting iteration with bound 52.000000; 38 expanded, 103 generated
+Starting iteration with bound 54.000000; 316 expanded, 870 generated
+Starting iteration with bound 56.000000; 2462 expanded, 6860 generated
+Starting iteration with bound 58.000000; 22383 expanded, 62923 generated
+Starting iteration with bound 60.000000; 223639 expanded, 634275 generated
+Starting iteration with bound 62.000000; 2190369 expanded, 6258908 generated
+Starting iteration with bound 64.000000; 20585131 expanded, 59205367 generated
+IDA*: 3.41s elapsed; 33669090 expanded; 96625438 generated; solution length 64.000000
+BTS on unit STP problem 42
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 15 14 13 1 9 10 4 3 6 2 12 7 5 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.37s elapsed; 33669090 expanded; 96625438 generated; solution length 64.000000
+Oracle: 1.81s elapsed; 18394762 expanded; 52946459 generated; solution length 64.000000
+BTS on non-unit STP problem 43
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 9 0 6 8 3 5 14 2 4 11 7 10 1 15 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.05s elapsed; 56301839 expanded; 170557633 generated; solution length 58.000123
+Oracle: 2.65s elapsed; 20204105 expanded; 61293493 generated; solution length 58.000123
+IDA* on unit STP problem 43
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 9 0 6 8 3 5 14 2 4 11 7 10 1 15 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 2 expanded, 5 generated
+Starting iteration with bound 36.000000; 112 expanded, 339 generated
+Starting iteration with bound 38.000000; 832 expanded, 2502 generated
+Starting iteration with bound 40.000000; 4710 expanded, 14169 generated
+Starting iteration with bound 42.000000; 25170 expanded, 75939 generated
+Starting iteration with bound 44.000000; 131150 expanded, 396429 generated
+Starting iteration with bound 46.000000; 665073 expanded, 2012682 generated
+Starting iteration with bound 48.000000; 3310782 expanded, 10030738 generated
+Starting iteration with bound 50.000000; 16287720 expanded, 49385156 generated
+IDA*: 6.18s elapsed; 54383373 expanded; 164900791 generated; solution length 50.000000
+BTS on unit STP problem 43
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 9 0 6 8 3 5 14 2 4 11 7 10 1 15 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 6.16s elapsed; 54383373 expanded; 164900791 generated; solution length 50.000000
+Oracle: 1.43s elapsed; 12976938 expanded; 39354418 generated; solution length 50.000000
+BTS on non-unit STP problem 44
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 9 7 12 15 0 4 1 8 5 6 11 10 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.93s elapsed; 7630364 expanded; 22600773 generated; solution length 59.073385
+Oracle: 0.39s elapsed; 3227488 expanded; 9558521 generated; solution length 59.073385
+IDA* on unit STP problem 44
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 14 9 7 12 15 0 4 1 8 5 6 11 10 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 17 expanded, 49 generated
+Starting iteration with bound 43.000000; 396 expanded, 1149 generated
+Starting iteration with bound 45.000000; 3637 expanded, 10640 generated
+Starting iteration with bound 47.000000; 29045 expanded, 85433 generated
+Starting iteration with bound 49.000000; 203062 expanded, 599681 generated
+Starting iteration with bound 51.000000; 1322972 expanded, 3919811 generated
+IDA*: 0.26s elapsed; 2397270 expanded; 7116996 generated; solution length 51.000000
+BTS on unit STP problem 44
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 9 7 12 15 0 4 1 8 5 6 11 10 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.26s elapsed; 2397270 expanded; 7116996 generated; solution length 51.000000
+Oracle: 0.12s elapsed; 1119910 expanded; 3320130 generated; solution length 51.000000
+BTS on non-unit STP problem 45
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 4 6 1 14 12 2 15 13 10 9 5 3 7 0 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.68s elapsed; 21104191 expanded; 63907959 generated; solution length 56.445957
+Oracle: 1.40s elapsed; 11101320 expanded; 33669148 generated; solution length 56.445957
+IDA* on unit STP problem 45
+
+
+Weights validated
+
+IDA* searching from
+(4x4)8 4 6 1 14 12 2 15 13 10 9 5 3 7 0 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 9 expanded, 26 generated
+Starting iteration with bound 39.000000; 150 expanded, 434 generated
+Starting iteration with bound 41.000000; 1514 expanded, 4542 generated
+Starting iteration with bound 43.000000; 15052 expanded, 45732 generated
+Starting iteration with bound 45.000000; 114759 expanded, 346882 generated
+Starting iteration with bound 47.000000; 762606 expanded, 2305166 generated
+Starting iteration with bound 49.000000; 4662642 expanded, 14098510 generated
+IDA*: 0.59s elapsed; 5405819 expanded; 16329961 generated; solution length 49.000000
+BTS on unit STP problem 45
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 4 6 1 14 12 2 15 13 10 9 5 3 7 0 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.58s elapsed; 5405819 expanded; 16329961 generated; solution length 49.000000
+Oracle: 0.41s elapsed; 3900036 expanded; 11793344 generated; solution length 49.000000
+BTS on non-unit STP problem 46
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 10 1 14 15 8 3 5 13 0 2 7 4 9 11 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.31s elapsed; 2489141 expanded; 7542477 generated; solution length 53.788616
+Oracle: 0.16s elapsed; 1265904 expanded; 3840694 generated; solution length 53.788616
+IDA* on unit STP problem 46
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 10 1 14 15 8 3 5 13 0 2 7 4 9 11 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 38 expanded, 111 generated
+Starting iteration with bound 39.000000; 327 expanded, 967 generated
+Starting iteration with bound 41.000000; 2155 expanded, 6423 generated
+Starting iteration with bound 43.000000; 13427 expanded, 40329 generated
+Starting iteration with bound 45.000000; 80772 expanded, 243412 generated
+Starting iteration with bound 47.000000; 461542 expanded, 1392780 generated
+IDA*: 0.22s elapsed; 1958425 expanded; 5917332 generated; solution length 47.000000
+BTS on unit STP problem 46
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 10 1 14 15 8 3 5 13 0 2 7 4 9 11 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.22s elapsed; 1958425 expanded; 5917332 generated; solution length 47.000000
+Oracle: 0.04s elapsed; 380770 expanded; 1149368 generated; solution length 47.000000
+BTS on non-unit STP problem 47
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 11 4 6 7 3 10 9 2 12 15 13 0 1 5 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.22s elapsed; 1809509 expanded; 5468193 generated; solution length 58.165462
+Oracle: 0.15s elapsed; 1205060 expanded; 3648136 generated; solution length 58.165462
+IDA* on unit STP problem 47
+
+
+Weights validated
+
+IDA* searching from
+(4x4)8 11 4 6 7 3 10 9 2 12 15 13 0 1 5 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 1 expanded, 2 generated
+Starting iteration with bound 43.000000; 324 expanded, 951 generated
+Starting iteration with bound 45.000000; 3318 expanded, 9813 generated
+Starting iteration with bound 47.000000; 29936 expanded, 89766 generated
+Starting iteration with bound 49.000000; 233015 expanded, 702483 generated
+IDA*: 0.09s elapsed; 838258 expanded; 2532871 generated; solution length 49.000000
+BTS on unit STP problem 47
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 11 4 6 7 3 10 9 2 12 15 13 0 1 5 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.09s elapsed; 838274 expanded; 2532919 generated; solution length 49.000000
+Oracle: 0.02s elapsed; 203079 expanded; 612717 generated; solution length 49.000000
+BTS on non-unit STP problem 48
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 0 2 4 5 1 6 12 11 13 9 7 15 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 416.22s elapsed; 3410331816 expanded; 10141996917 generated; solution length 67.508768
+Oracle: 169.90s elapsed; 1404225555 expanded; 4183226659 generated; solution length 67.508768
+IDA* on unit STP problem 48
+
+
+Weights validated
+
+IDA* searching from
+(4x4)10 0 2 4 5 1 6 12 11 13 9 7 15 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 33.000000; 0 expanded, 0 generated
+Starting iteration with bound 35.000000; 5 expanded, 14 generated
+Starting iteration with bound 37.000000; 25 expanded, 72 generated
+Starting iteration with bound 39.000000; 111 expanded, 320 generated
+Starting iteration with bound 41.000000; 483 expanded, 1406 generated
+Starting iteration with bound 43.000000; 2133 expanded, 6241 generated
+Starting iteration with bound 45.000000; 9570 expanded, 27949 generated
+Starting iteration with bound 47.000000; 44984 expanded, 131806 generated
+Starting iteration with bound 49.000000; 218064 expanded, 640157 generated
+Starting iteration with bound 51.000000; 1075502 expanded, 3162576 generated
+Starting iteration with bound 53.000000; 5378430 expanded, 15842379 generated
+Starting iteration with bound 55.000000; 27197422 expanded, 80235183 generated
+Starting iteration with bound 57.000000; 138519553 expanded, 409263419 generated
+Starting iteration with bound 59.000000; 709720094 expanded, 2100035397 generated
+IDA*: 111.72s elapsed; 1046094288 expanded; 3097154496 generated; solution length 59.000000
+BTS on unit STP problem 48
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 0 2 4 5 1 6 12 11 13 9 7 15 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1064.90s elapsed; 1046094288 expanded; 3097154496 generated; solution length 59.000000
+Oracle: 59.53s elapsed; 571200541 expanded; 1690771978 generated; solution length 59.000000
+BTS on non-unit STP problem 49
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 5 13 11 2 10 0 9 7 8 4 3 14 6 15 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 4.52s elapsed; 36518652 expanded; 110388300 generated; solution length 62.671191
+Oracle: 3.03s elapsed; 24517178 expanded; 74159662 generated; solution length 62.671191
+IDA* on unit STP problem 49
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 5 13 11 2 10 0 9 7 8 4 3 14 6 15 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 45 expanded, 131 generated
+Starting iteration with bound 43.000000; 443 expanded, 1334 generated
+Starting iteration with bound 45.000000; 3196 expanded, 9537 generated
+Starting iteration with bound 47.000000; 21650 expanded, 64766 generated
+Starting iteration with bound 49.000000; 139292 expanded, 418583 generated
+Starting iteration with bound 51.000000; 874342 expanded, 2633212 generated
+Starting iteration with bound 53.000000; 5369082 expanded, 16202538 generated
+IDA*: 2.58s elapsed; 23633812 expanded; 71378357 generated; solution length 53.000000
+BTS on unit STP problem 49
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 5 13 11 2 10 0 9 7 8 4 3 14 6 15 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.57s elapsed; 23633812 expanded; 71378357 generated; solution length 53.000000
+Oracle: 0.48s elapsed; 4494740 expanded; 13569326 generated; solution length 53.000000
+BTS on non-unit STP problem 50
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 2 8 4 15 0 1 14 11 13 3 6 9 7 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.31s elapsed; 68992688 expanded; 205439950 generated; solution length 63.779921
+Oracle: 2.55s elapsed; 21367397 expanded; 63580764 generated; solution length 63.779921
+IDA* on unit STP problem 50
+
+
+Weights validated
+
+IDA* searching from
+(4x4)10 2 8 4 15 0 1 14 11 13 3 6 9 7 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 44.000000; 0 expanded, 0 generated
+Starting iteration with bound 46.000000; 240 expanded, 706 generated
+Starting iteration with bound 48.000000; 2857 expanded, 8374 generated
+Starting iteration with bound 50.000000; 27741 expanded, 81427 generated
+Starting iteration with bound 52.000000; 234318 expanded, 690324 generated
+Starting iteration with bound 54.000000; 1794151 expanded, 5305326 generated
+Starting iteration with bound 56.000000; 12736502 expanded, 37788605 generated
+IDA*: 1.81s elapsed; 16957246 expanded; 50295689 generated; solution length 56.000000
+BTS on unit STP problem 50
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 2 8 4 15 0 1 14 11 13 3 6 9 7 5 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.82s elapsed; 16957246 expanded; 50295689 generated; solution length 56.000000
+Oracle: 1.15s elapsed; 10942351 expanded; 32483279 generated; solution length 56.000000
+BTS on non-unit STP problem 51
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 8 0 12 3 7 6 2 1 14 4 11 15 13 9 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 39.83s elapsed; 320906507 expanded; 966910429 generated; solution length 64.636484
+Oracle: 22.10s elapsed; 179665233 expanded; 541837712 generated; solution length 64.636484
+IDA* on unit STP problem 51
+
+
+Weights validated
+
+IDA* searching from
+(4x4)10 8 0 12 3 7 6 2 1 14 4 11 15 13 9 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 3 expanded, 8 generated
+Starting iteration with bound 42.000000; 66 expanded, 191 generated
+Starting iteration with bound 44.000000; 811 expanded, 2419 generated
+Starting iteration with bound 46.000000; 6655 expanded, 19899 generated
+Starting iteration with bound 48.000000; 49791 expanded, 149305 generated
+Starting iteration with bound 50.000000; 333829 expanded, 1002424 generated
+Starting iteration with bound 52.000000; 2103042 expanded, 6322926 generated
+Starting iteration with bound 54.000000; 12678115 expanded, 38137627 generated
+Starting iteration with bound 56.000000; 73834182 expanded, 222212755 generated
+IDA*: 8.26s elapsed; 75667032 expanded; 227754348 generated; solution length 56.000000
+BTS on unit STP problem 51
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)10 8 0 12 3 7 6 2 1 14 4 11 15 13 9 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.21s elapsed; 75667032 expanded; 227754348 generated; solution length 56.000000
+Oracle: 6.53s elapsed; 61156067 expanded; 184075128 generated; solution length 56.000000
+BTS on non-unit STP problem 52
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 9 12 13 15 4 8 10 0 2 1 7 3 11 5 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 174.30s elapsed; 1461111155 expanded; 4332050390 generated; solution length 73.457180
+Oracle: 39.39s elapsed; 332486761 expanded; 986992743 generated; solution length 73.457180
+IDA* on unit STP problem 52
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 9 12 13 15 4 8 10 0 2 1 7 3 11 5 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 50.000000; 0 expanded, 0 generated
+Starting iteration with bound 52.000000; 146 expanded, 407 generated
+Starting iteration with bound 54.000000; 1823 expanded, 5143 generated
+Starting iteration with bound 56.000000; 30551 expanded, 88192 generated
+Starting iteration with bound 58.000000; 352295 expanded, 1027255 generated
+Starting iteration with bound 60.000000; 3378678 expanded, 9906817 generated
+Starting iteration with bound 62.000000; 28334576 expanded, 83363847 generated
+Starting iteration with bound 64.000000; 217619005 expanded, 641994589 generated
+IDA*: 42.95s elapsed; 410414299 expanded; 1208905552 generated; solution length 64.000000
+BTS on unit STP problem 52
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 9 12 13 15 4 8 10 0 2 1 7 3 11 5 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 42.72s elapsed; 410414299 expanded; 1208905552 generated; solution length 64.000000
+Oracle: 19.36s elapsed; 189284429 expanded; 558630742 generated; solution length 64.000000
+BTS on non-unit STP problem 53
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 11 0 8 10 2 13 15 5 4 7 3 6 9 14 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 25.82s elapsed; 211304752 expanded; 633634494 generated; solution length 64.780481
+Oracle: 7.55s elapsed; 62179835 expanded; 186687455 generated; solution length 64.780481
+IDA* on unit STP problem 53
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 11 0 8 10 2 13 15 5 4 7 3 6 9 14 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 40.000000; 0 expanded, 0 generated
+Starting iteration with bound 42.000000; 52 expanded, 153 generated
+Starting iteration with bound 44.000000; 675 expanded, 2009 generated
+Starting iteration with bound 46.000000; 5177 expanded, 15289 generated
+Starting iteration with bound 48.000000; 33678 expanded, 100030 generated
+Starting iteration with bound 50.000000; 206424 expanded, 613800 generated
+Starting iteration with bound 52.000000; 1227329 expanded, 3659022 generated
+Starting iteration with bound 54.000000; 7124024 expanded, 21282448 generated
+Starting iteration with bound 56.000000; 40717390 expanded, 121885895 generated
+IDA*: 11.02s elapsed; 101763100 expanded; 305197305 generated; solution length 56.000000
+BTS on unit STP problem 53
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 11 0 8 10 2 13 15 5 4 7 3 6 9 14 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 11.00s elapsed; 101763100 expanded; 305197305 generated; solution length 56.000000
+Oracle: 3.54s elapsed; 33593366 expanded; 100603447 generated; solution length 56.000000
+BTS on non-unit STP problem 54
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 8 14 3 9 1 0 7 15 5 4 10 12 2 6 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.07s elapsed; 538056 expanded; 1629727 generated; solution length 47.814719
+Oracle: 0.04s elapsed; 308191 expanded; 933769 generated; solution length 47.814719
+IDA* on unit STP problem 54
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 8 14 3 9 1 0 7 15 5 4 10 12 2 6 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 29.000000; 0 expanded, 0 generated
+Starting iteration with bound 31.000000; 7 expanded, 22 generated
+Starting iteration with bound 33.000000; 128 expanded, 389 generated
+Starting iteration with bound 35.000000; 797 expanded, 2414 generated
+Starting iteration with bound 37.000000; 4453 expanded, 13490 generated
+Starting iteration with bound 39.000000; 22963 expanded, 69496 generated
+Starting iteration with bound 41.000000; 113173 expanded, 342574 generated
+IDA*: 0.04s elapsed; 372516 expanded; 1128426 generated; solution length 41.000000
+BTS on unit STP problem 54
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 8 14 3 9 1 0 7 15 5 4 10 12 2 6 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.04s elapsed; 372516 expanded; 1128426 generated; solution length 41.000000
+Oracle: 0.01s elapsed; 90210 expanded; 273078 generated; solution length 41.000000
+BTS on non-unit STP problem 55
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 15 2 5 11 6 4 7 12 9 1 0 13 14 10 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 278.14s elapsed; 2244731307 expanded; 6717830798 generated; solution length 63.455557
+Oracle: 72.07s elapsed; 583097819 expanded; 1747200464 generated; solution length 63.455557
+IDA* on unit STP problem 55
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 15 2 5 11 6 4 7 12 9 1 0 13 14 10 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 29.000000; 0 expanded, 0 generated
+Starting iteration with bound 31.000000; 2 expanded, 5 generated
+Starting iteration with bound 33.000000; 18 expanded, 49 generated
+Starting iteration with bound 35.000000; 82 expanded, 242 generated
+Starting iteration with bound 37.000000; 420 expanded, 1238 generated
+Starting iteration with bound 39.000000; 1770 expanded, 5192 generated
+Starting iteration with bound 41.000000; 8390 expanded, 24732 generated
+Starting iteration with bound 43.000000; 40074 expanded, 118467 generated
+Starting iteration with bound 45.000000; 194949 expanded, 576905 generated
+Starting iteration with bound 47.000000; 947281 expanded, 2809857 generated
+Starting iteration with bound 49.000000; 4607360 expanded, 13690900 generated
+Starting iteration with bound 51.000000; 22290750 expanded, 66341680 generated
+Starting iteration with bound 53.000000; 107428776 expanded, 320180355 generated
+Starting iteration with bound 55.000000; 515707748 expanded, 1539015476 generated
+IDA*: 109.04s elapsed; 1006833136 expanded; 3002820335 generated; solution length 55.000000
+BTS on unit STP problem 55
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 15 2 5 11 6 4 7 12 9 1 0 13 14 10 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 108.57s elapsed; 1006833136 expanded; 3002820335 generated; solution length 55.000000
+Oracle: 43.16s elapsed; 408278972 expanded; 1218835121 generated; solution length 55.000000
+BTS on non-unit STP problem 56
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 11 6 9 4 13 12 0 8 2 15 10 1 7 3 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.00s elapsed; 8179527 expanded; 24465231 generated; solution length 58.357079
+Oracle: 0.54s elapsed; 4486842 expanded; 13439840 generated; solution length 58.357079
+IDA* on unit STP problem 56
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 11 6 9 4 13 12 0 8 2 15 10 1 7 3 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 2 expanded, 5 generated
+Starting iteration with bound 40.000000; 78 expanded, 222 generated
+Starting iteration with bound 42.000000; 611 expanded, 1780 generated
+Starting iteration with bound 44.000000; 4543 expanded, 13356 generated
+Starting iteration with bound 46.000000; 31964 expanded, 94514 generated
+Starting iteration with bound 48.000000; 213100 expanded, 633893 generated
+Starting iteration with bound 50.000000; 1360534 expanded, 4061243 generated
+IDA*: 0.33s elapsed; 3100958 expanded; 9254860 generated; solution length 50.000000
+BTS on unit STP problem 56
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 11 6 9 4 13 12 0 8 2 15 10 1 7 3 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.33s elapsed; 3100958 expanded; 9254860 generated; solution length 50.000000
+Oracle: 0.12s elapsed; 1147434 expanded; 3427350 generated; solution length 50.000000
+BTS on non-unit STP problem 57
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 0 15 8 4 6 1 14 10 11 3 9 7 12 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.09s elapsed; 8791806 expanded; 26664167 generated; solution length 59.041028
+Oracle: 0.62s elapsed; 4959678 expanded; 15093877 generated; solution length 59.041028
+IDA* on unit STP problem 57
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 0 15 8 4 6 1 14 10 11 3 9 7 12 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 37.000000; 0 expanded, 0 generated
+Starting iteration with bound 39.000000; 2 expanded, 5 generated
+Starting iteration with bound 41.000000; 82 expanded, 243 generated
+Starting iteration with bound 43.000000; 818 expanded, 2448 generated
+Starting iteration with bound 45.000000; 5584 expanded, 16737 generated
+Starting iteration with bound 47.000000; 37746 expanded, 113590 generated
+Starting iteration with bound 49.000000; 246397 expanded, 743761 generated
+Starting iteration with bound 51.000000; 1537753 expanded, 4647467 generated
+IDA*: 0.57s elapsed; 5219252 expanded; 15775104 generated; solution length 51.000000
+BTS on unit STP problem 57
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 0 15 8 4 6 1 14 10 11 3 9 7 12 2 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.57s elapsed; 5219252 expanded; 15775104 generated; solution length 51.000000
+Oracle: 0.14s elapsed; 1291356 expanded; 3903706 generated; solution length 51.000000
+BTS on non-unit STP problem 58
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 14 6 7 10 1 0 11 12 8 4 9 2 5 13 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 252.09s elapsed; 2033551664 expanded; 6105760756 generated; solution length 65.774326
+Oracle: 88.08s elapsed; 715619949 expanded; 2150506884 generated; solution length 65.774326
+IDA* on unit STP problem 58
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 14 6 7 10 1 0 11 12 8 4 9 2 5 13 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 12 expanded, 35 generated
+Starting iteration with bound 39.000000; 102 expanded, 296 generated
+Starting iteration with bound 41.000000; 646 expanded, 1899 generated
+Starting iteration with bound 43.000000; 3846 expanded, 11357 generated
+Starting iteration with bound 45.000000; 22154 expanded, 65617 generated
+Starting iteration with bound 47.000000; 123297 expanded, 366297 generated
+Starting iteration with bound 49.000000; 677684 expanded, 2017698 generated
+Starting iteration with bound 51.000000; 3682988 expanded, 10990655 generated
+Starting iteration with bound 53.000000; 19766357 expanded, 59110474 generated
+Starting iteration with bound 55.000000; 104713628 expanded, 313688330 generated
+Starting iteration with bound 57.000000; 547443094 expanded, 1642435658 generated
+IDA*: 67.93s elapsed; 622332527 expanded; 1866119631 generated; solution length 57.000000
+BTS on unit STP problem 58
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 14 6 7 10 1 0 11 12 8 4 9 2 5 13 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 67.69s elapsed; 622332527 expanded; 1866119631 generated; solution length 57.000000
+Oracle: 47.21s elapsed; 442729466 expanded; 1328747328 generated; solution length 57.000000
+BTS on non-unit STP problem 59
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 14 13 1 2 3 12 4 15 7 9 5 10 6 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 892.08s elapsed; 7442420407 expanded; 22072728821 generated; solution length 75.671964
+Oracle: 610.94s elapsed; 5106570456 expanded; 15184524221 generated; solution length 75.671964
+IDA* on unit STP problem 59
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 14 13 1 2 3 12 4 15 7 9 5 10 6 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 48.000000; 0 expanded, 0 generated
+Starting iteration with bound 50.000000; 1 expanded, 2 generated
+Starting iteration with bound 52.000000; 7 expanded, 18 generated
+Starting iteration with bound 54.000000; 898 expanded, 2567 generated
+Starting iteration with bound 56.000000; 14624 expanded, 42099 generated
+Starting iteration with bound 58.000000; 176596 expanded, 511815 generated
+Starting iteration with bound 60.000000; 1783980 expanded, 5195862 generated
+Starting iteration with bound 62.000000; 16105032 expanded, 47127578 generated
+Starting iteration with bound 64.000000; 134218572 expanded, 394478625 generated
+Starting iteration with bound 66.000000; 1048261434 expanded, 3093363004 generated
+IDA*: 160.25s elapsed; 1521259094 expanded; 4482810074 generated; solution length 66.000000
+BTS on unit STP problem 59
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 14 13 1 2 3 12 4 15 7 9 5 10 6 8 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 159.40s elapsed; 1521259102 expanded; 4482810098 generated; solution length 66.000000
+Oracle: 94.07s elapsed; 914042862 expanded; 2698884379 generated; solution length 66.000000
+BTS on non-unit STP problem 60
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 13 3 2 11 9 5 10 1 7 12 14 8 4 0 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.83s elapsed; 6667501 expanded; 20296054 generated; solution length 51.756707
+Oracle: 0.37s elapsed; 2968483 expanded; 9089656 generated; solution length 51.756707
+IDA* on unit STP problem 60
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 13 3 2 11 9 5 10 1 7 12 14 8 4 0 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 31.000000; 0 expanded, 0 generated
+Starting iteration with bound 33.000000; 28 expanded, 85 generated
+Starting iteration with bound 35.000000; 202 expanded, 615 generated
+Starting iteration with bound 37.000000; 1438 expanded, 4364 generated
+Starting iteration with bound 39.000000; 9028 expanded, 27319 generated
+Starting iteration with bound 41.000000; 51773 expanded, 156951 generated
+Starting iteration with bound 43.000000; 284009 expanded, 860336 generated
+Starting iteration with bound 45.000000; 1509457 expanded, 4574741 generated
+IDA*: 0.33s elapsed; 3032730 expanded; 9187410 generated; solution length 45.000000
+BTS on unit STP problem 60
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 13 3 2 11 9 5 10 1 7 12 14 8 4 0 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.33s elapsed; 3032730 expanded; 9187410 generated; solution length 45.000000
+Oracle: 0.13s elapsed; 1225448 expanded; 3714405 generated; solution length 45.000000
+BTS on non-unit STP problem 61
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 6 12 0 14 2 9 13 11 8 3 15 7 10 1 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.30s elapsed; 27305926 expanded; 81433342 generated; solution length 65.472859
+Oracle: 1.58s elapsed; 13195787 expanded; 39494347 generated; solution length 65.472859
+IDA* on unit STP problem 61
+
+
+Weights validated
+
+IDA* searching from
+(4x4)4 6 12 0 14 2 9 13 11 8 3 15 7 10 1 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 1 expanded, 2 generated
+Starting iteration with bound 47.000000; 32 expanded, 91 generated
+Starting iteration with bound 49.000000; 778 expanded, 2268 generated
+Starting iteration with bound 51.000000; 8674 expanded, 25434 generated
+Starting iteration with bound 53.000000; 85463 expanded, 252258 generated
+Starting iteration with bound 55.000000; 738593 expanded, 2190014 generated
+Starting iteration with bound 57.000000; 5796632 expanded, 17252115 generated
+IDA*: 0.89s elapsed; 8356540 expanded; 24833355 generated; solution length 57.000000
+BTS on unit STP problem 61
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 6 12 0 14 2 9 13 11 8 3 15 7 10 1 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.88s elapsed; 8356556 expanded; 24833404 generated; solution length 57.000000
+Oracle: 0.53s elapsed; 5058039 expanded; 15062101 generated; solution length 57.000000
+BTS on non-unit STP problem 62
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 10 9 11 14 1 7 15 13 4 0 12 6 2 5 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 855.97s elapsed; 700622771 expanded; 2149459269 generated; solution length 64.758270
+Oracle: 44.55s elapsed; 352859757 expanded; 1080876775 generated; solution length 64.758270
+IDA* on unit STP problem 62
+
+
+Weights validated
+
+IDA* searching from
+(4x4)8 10 9 11 14 1 7 15 13 4 0 12 6 2 5 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 40.000000; 0 expanded, 0 generated
+Starting iteration with bound 42.000000; 266 expanded, 868 generated
+Starting iteration with bound 44.000000; 3205 expanded, 10068 generated
+Starting iteration with bound 46.000000; 25963 expanded, 80749 generated
+Starting iteration with bound 48.000000; 175820 expanded, 544155 generated
+Starting iteration with bound 50.000000; 1095458 expanded, 3384023 generated
+Starting iteration with bound 52.000000; 6425258 expanded, 19807833 generated
+Starting iteration with bound 54.000000; 36153070 expanded, 111312151 generated
+Starting iteration with bound 56.000000; 197674113 expanded, 608077664 generated
+IDA*: 22.73s elapsed; 202124691 expanded; 621887314 generated; solution length 56.000000
+BTS on unit STP problem 62
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)8 10 9 11 14 1 7 15 13 4 0 12 6 2 5 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 22.98s elapsed; 202124691 expanded; 621887314 generated; solution length 56.000000
+Oracle: 18.19s elapsed; 161521043 expanded; 496765513 generated; solution length 56.000000
+BTS on non-unit STP problem 63
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 2 14 0 7 8 6 3 11 12 13 15 4 10 9 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 23.81s elapsed; 190501681 expanded; 576554714 generated; solution length 59.539903
+Oracle: 15.17s elapsed; 122576202 expanded; 371424300 generated; solution length 59.539903
+IDA* on unit STP problem 63
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 2 14 0 7 8 6 3 11 12 13 15 4 10 9 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 31.000000; 0 expanded, 0 generated
+Starting iteration with bound 33.000000; 2 expanded, 5 generated
+Starting iteration with bound 35.000000; 13 expanded, 35 generated
+Starting iteration with bound 37.000000; 111 expanded, 324 generated
+Starting iteration with bound 39.000000; 1142 expanded, 3386 generated
+Starting iteration with bound 41.000000; 7263 expanded, 21556 generated
+Starting iteration with bound 43.000000; 42289 expanded, 126072 generated
+Starting iteration with bound 45.000000; 233846 expanded, 700469 generated
+Starting iteration with bound 47.000000; 1252292 expanded, 3765194 generated
+Starting iteration with bound 49.000000; 6526505 expanded, 19670660 generated
+Starting iteration with bound 51.000000; 33337056 expanded, 100686968 generated
+IDA*: 10.20s elapsed; 93057850 expanded; 280591673 generated; solution length 51.000000
+BTS on unit STP problem 63
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 2 14 0 7 8 6 3 11 12 13 15 4 10 9 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 10.16s elapsed; 93057850 expanded; 280591673 generated; solution length 51.000000
+Oracle: 2.87s elapsed; 26810551 expanded; 81016308 generated; solution length 51.000000
+BTS on non-unit STP problem 64
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 8 3 2 10 12 4 6 11 13 5 15 0 1 9 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 4.38s elapsed; 35053574 expanded; 106409036 generated; solution length 55.112894
+Oracle: 1.59s elapsed; 12867248 expanded; 39000386 generated; solution length 55.112894
+IDA* on unit STP problem 64
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 8 3 2 10 12 4 6 11 13 5 15 0 1 9 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 31.000000; 0 expanded, 0 generated
+Starting iteration with bound 33.000000; 1 expanded, 2 generated
+Starting iteration with bound 35.000000; 61 expanded, 180 generated
+Starting iteration with bound 37.000000; 495 expanded, 1471 generated
+Starting iteration with bound 39.000000; 3739 expanded, 11184 generated
+Starting iteration with bound 41.000000; 23601 expanded, 71004 generated
+Starting iteration with bound 43.000000; 135797 expanded, 409322 generated
+Starting iteration with bound 45.000000; 733852 expanded, 2215425 generated
+Starting iteration with bound 47.000000; 3825735 expanded, 11567415 generated
+IDA*: 0.46s elapsed; 4189042 expanded; 12663987 generated; solution length 47.000000
+BTS on unit STP problem 64
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 8 3 2 10 12 4 6 11 13 5 15 0 1 9 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.45s elapsed; 4189058 expanded; 12664035 generated; solution length 47.000000
+Oracle: 0.33s elapsed; 3091883 expanded; 9351990 generated; solution length 47.000000
+BTS on non-unit STP problem 65
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 6 14 12 3 5 1 15 8 0 10 13 9 7 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 458.64s elapsed; 3811282152 expanded; 11281494849 generated; solution length 70.475968
+Oracle: 143.93s elapsed; 1208887423 expanded; 3580638401 generated; solution length 70.475968
+IDA* on unit STP problem 65
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 6 14 12 3 5 1 15 8 0 10 13 9 7 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 8 expanded, 22 generated
+Starting iteration with bound 45.000000; 82 expanded, 230 generated
+Starting iteration with bound 47.000000; 697 expanded, 1974 generated
+Starting iteration with bound 49.000000; 5178 expanded, 14767 generated
+Starting iteration with bound 51.000000; 38312 expanded, 109913 generated
+Starting iteration with bound 53.000000; 273654 expanded, 790011 generated
+Starting iteration with bound 55.000000; 1908175 expanded, 5540990 generated
+Starting iteration with bound 57.000000; 13043585 expanded, 38074503 generated
+Starting iteration with bound 59.000000; 86797131 expanded, 254543626 generated
+Starting iteration with bound 61.000000; 561577054 expanded, 1653397626 generated
+IDA*: 61.45s elapsed; 582396421 expanded; 1715011224 generated; solution length 61.000000
+BTS on unit STP problem 65
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 6 14 12 3 5 1 15 8 0 10 13 9 7 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 61.26s elapsed; 582396421 expanded; 1715011224 generated; solution length 61.000000
+Oracle: 49.01s elapsed; 474779923 expanded; 1398854000 generated; solution length 61.000000
+BTS on non-unit STP problem 66
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 1 2 4 8 3 6 11 10 15 0 5 14 12 13 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 44.19s elapsed; 353145368 expanded; 1068553296 generated; solution length 57.756631
+Oracle: 19.14s elapsed; 153169797 expanded; 464090464 generated; solution length 57.756631
+IDA* on unit STP problem 66
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 1 2 4 8 3 6 11 10 15 0 5 14 12 13 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 28.000000; 0 expanded, 0 generated
+Starting iteration with bound 30.000000; 9 expanded, 26 generated
+Starting iteration with bound 32.000000; 60 expanded, 179 generated
+Starting iteration with bound 34.000000; 307 expanded, 918 generated
+Starting iteration with bound 36.000000; 1414 expanded, 4261 generated
+Starting iteration with bound 38.000000; 6523 expanded, 19590 generated
+Starting iteration with bound 40.000000; 30090 expanded, 90683 generated
+Starting iteration with bound 42.000000; 138410 expanded, 417416 generated
+Starting iteration with bound 44.000000; 632528 expanded, 1908509 generated
+Starting iteration with bound 46.000000; 2887780 expanded, 8720477 generated
+Starting iteration with bound 48.000000; 13186632 expanded, 39854011 generated
+Starting iteration with bound 50.000000; 60232259 expanded, 182173748 generated
+IDA*: 13.70s elapsed; 122756042 expanded; 371149819 generated; solution length 50.000000
+BTS on unit STP problem 66
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 1 2 4 8 3 6 11 10 15 0 5 14 12 13 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 13.53s elapsed; 122756042 expanded; 371149819 generated; solution length 50.000000
+Oracle: 5.08s elapsed; 47045627 expanded; 142319737 generated; solution length 50.000000
+BTS on non-unit STP problem 67
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 3 1 13 12 10 5 2 8 0 6 11 14 15 4 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 19.98s elapsed; 160836027 expanded; 484728482 generated; solution length 58.781646
+Oracle: 6.66s elapsed; 53853134 expanded; 162640196 generated; solution length 58.781646
+IDA* on unit STP problem 67
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 3 1 13 12 10 5 2 8 0 6 11 14 15 4 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 31.000000; 0 expanded, 0 generated
+Starting iteration with bound 33.000000; 11 expanded, 35 generated
+Starting iteration with bound 35.000000; 75 expanded, 217 generated
+Starting iteration with bound 37.000000; 355 expanded, 1041 generated
+Starting iteration with bound 39.000000; 1745 expanded, 5156 generated
+Starting iteration with bound 41.000000; 8458 expanded, 24998 generated
+Starting iteration with bound 43.000000; 41420 expanded, 122819 generated
+Starting iteration with bound 45.000000; 207448 expanded, 618140 generated
+Starting iteration with bound 47.000000; 1052857 expanded, 3147785 generated
+Starting iteration with bound 49.000000; 5374351 expanded, 16112588 generated
+Starting iteration with bound 51.000000; 27386481 expanded, 82319336 generated
+IDA*: 4.98s elapsed; 45399399 expanded; 136693023 generated; solution length 51.000000
+BTS on unit STP problem 67
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 3 1 13 12 10 5 2 8 0 6 11 14 15 4 9 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 4.94s elapsed; 45399399 expanded; 136693023 generated; solution length 51.000000
+Oracle: 2.35s elapsed; 22012130 expanded; 66206748 generated; solution length 51.000000
+BTS on non-unit STP problem 68
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 5 15 1 14 4 9 2 13 8 10 11 12 7 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 49.18s elapsed; 400304606 expanded; 1203063846 generated; solution length 61.991790
+Oracle: 10.61s elapsed; 87024912 expanded; 261152840 generated; solution length 61.991790
+IDA* on unit STP problem 68
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 0 5 15 1 14 4 9 2 13 8 10 11 12 7 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 37.000000; 0 expanded, 0 generated
+Starting iteration with bound 39.000000; 34 expanded, 100 generated
+Starting iteration with bound 41.000000; 301 expanded, 880 generated
+Starting iteration with bound 43.000000; 2391 expanded, 7069 generated
+Starting iteration with bound 45.000000; 16573 expanded, 49207 generated
+Starting iteration with bound 47.000000; 106870 expanded, 318076 generated
+Starting iteration with bound 49.000000; 656594 expanded, 1958096 generated
+Starting iteration with bound 51.000000; 3852939 expanded, 11512046 generated
+Starting iteration with bound 53.000000; 21747861 expanded, 65069075 generated
+IDA*: 7.28s elapsed; 67393597 expanded; 201782310 generated; solution length 53.000000
+BTS on unit STP problem 68
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 5 15 1 14 4 9 2 13 8 10 11 12 7 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.23s elapsed; 67393597 expanded; 201782310 generated; solution length 53.000000
+Oracle: 1.88s elapsed; 17894922 expanded; 53557029 generated; solution length 53.000000
+BTS on non-unit STP problem 69
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 1 3 12 4 0 6 5 2 8 14 9 13 10 7 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 30.23s elapsed; 242730189 expanded; 732442700 generated; solution length 59.191769
+Oracle: 9.47s elapsed; 76602222 expanded; 231128483 generated; solution length 59.191769
+IDA* on unit STP problem 69
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 1 3 12 4 0 6 5 2 8 14 9 13 10 7 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 30.000000; 0 expanded, 0 generated
+Starting iteration with bound 32.000000; 1 expanded, 4 generated
+Starting iteration with bound 34.000000; 18 expanded, 54 generated
+Starting iteration with bound 36.000000; 128 expanded, 380 generated
+Starting iteration with bound 38.000000; 632 expanded, 1883 generated
+Starting iteration with bound 40.000000; 3049 expanded, 9080 generated
+Starting iteration with bound 42.000000; 15167 expanded, 45283 generated
+Starting iteration with bound 44.000000; 77072 expanded, 230624 generated
+Starting iteration with bound 46.000000; 397992 expanded, 1192604 generated
+Starting iteration with bound 48.000000; 2081227 expanded, 6249206 generated
+Starting iteration with bound 50.000000; 10969945 expanded, 32998126 generated
+Starting iteration with bound 52.000000; 57843202 expanded, 174293811 generated
+IDA*: 8.78s elapsed; 79701617 expanded; 240430145 generated; solution length 52.000000
+BTS on unit STP problem 69
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 1 3 12 4 0 6 5 2 8 14 9 13 10 7 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.73s elapsed; 79701633 expanded; 240430195 generated; solution length 52.000000
+Oracle: 5.01s elapsed; 46873257 expanded; 141295685 generated; solution length 52.000000
+BTS on non-unit STP problem 70
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 0 11 12 1 9 10 15 6 2 3 8 4 13 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.69s elapsed; 21436594 expanded; 65234995 generated; solution length 51.518673
+Oracle: 0.67s elapsed; 5402182 expanded; 16407135 generated; solution length 51.518673
+IDA* on unit STP problem 70
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 7 0 11 12 1 9 10 15 6 2 3 8 4 13 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 30.000000; 0 expanded, 0 generated
+Starting iteration with bound 32.000000; 37 expanded, 110 generated
+Starting iteration with bound 34.000000; 331 expanded, 999 generated
+Starting iteration with bound 36.000000; 2167 expanded, 6524 generated
+Starting iteration with bound 38.000000; 12642 expanded, 38290 generated
+Starting iteration with bound 40.000000; 68595 expanded, 207426 generated
+Starting iteration with bound 42.000000; 354661 expanded, 1073104 generated
+Starting iteration with bound 44.000000; 1771187 expanded, 5363415 generated
+IDA*: 0.67s elapsed; 6074831 expanded; 18419312 generated; solution length 44.000000
+BTS on unit STP problem 70
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 0 11 12 1 9 10 15 6 2 3 8 4 13 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.66s elapsed; 6074831 expanded; 18419312 generated; solution length 44.000000
+Oracle: 0.15s elapsed; 1416526 expanded; 4290311 generated; solution length 44.000000
+BTS on non-unit STP problem 71
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 15 11 10 4 5 14 0 13 7 1 2 9 8 3 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 164.41s elapsed; 1354648320 expanded; 4054048115 generated; solution length 64.063047
+Oracle: 54.39s elapsed; 450324950 expanded; 1348725632 generated; solution length 64.063047
+IDA* on unit STP problem 71
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 15 11 10 4 5 14 0 13 7 1 2 9 8 3 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 7 expanded, 19 generated
+Starting iteration with bound 42.000000; 481 expanded, 1405 generated
+Starting iteration with bound 44.000000; 6430 expanded, 18977 generated
+Starting iteration with bound 46.000000; 60411 expanded, 178873 generated
+Starting iteration with bound 48.000000; 441494 expanded, 1312339 generated
+Starting iteration with bound 50.000000; 2838684 expanded, 8460883 generated
+Starting iteration with bound 52.000000; 16739024 expanded, 49979501 generated
+Starting iteration with bound 54.000000; 93407456 expanded, 279271280 generated
+Starting iteration with bound 56.000000; 501376414 expanded, 1500604933 generated
+IDA*: 86.05s elapsed; 806265927 expanded; 2414620699 generated; solution length 56.000000
+BTS on unit STP problem 71
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 15 11 10 4 5 14 0 13 7 1 2 9 8 3 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 86.00s elapsed; 806265927 expanded; 2414620699 generated; solution length 56.000000
+Oracle: 42.55s elapsed; 407968958 expanded; 1221333653 generated; solution length 56.000000
+BTS on non-unit STP problem 72
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 14 10 5 15 8 7 1 3 4 2 0 12 9 11 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.32s elapsed; 2578661 expanded; 7779541 generated; solution length 57.494787
+Oracle: 0.19s elapsed; 1547505 expanded; 4678252 generated; solution length 57.494787
+IDA* on unit STP problem 72
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 14 10 5 15 8 7 1 3 4 2 0 12 9 11 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 37.000000; 0 expanded, 0 generated
+Starting iteration with bound 39.000000; 1 expanded, 3 generated
+Starting iteration with bound 41.000000; 18 expanded, 51 generated
+Starting iteration with bound 43.000000; 286 expanded, 851 generated
+Starting iteration with bound 45.000000; 3670 expanded, 10889 generated
+Starting iteration with bound 47.000000; 42060 expanded, 125730 generated
+Starting iteration with bound 49.000000; 393532 expanded, 1182415 generated
+IDA*: 0.05s elapsed; 419498 expanded; 1261977 generated; solution length 49.000000
+BTS on unit STP problem 72
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 14 10 5 15 8 7 1 3 4 2 0 12 9 11 13 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.05s elapsed; 419514 expanded; 1262030 generated; solution length 49.000000
+Oracle: 0.04s elapsed; 351472 expanded; 1056685 generated; solution length 49.000000
+BTS on non-unit STP problem 73
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 13 4 11 15 8 6 9 0 7 3 1 2 10 12 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.61s elapsed; 5084605 expanded; 15058768 generated; solution length 64.992956
+Oracle: 0.11s elapsed; 972348 expanded; 2870389 generated; solution length 64.992956
+IDA* on unit STP problem 73
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 13 4 11 15 8 6 9 0 7 3 1 2 10 12 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 46.000000; 0 expanded, 0 generated
+Starting iteration with bound 48.000000; 20 expanded, 54 generated
+Starting iteration with bound 50.000000; 316 expanded, 889 generated
+Starting iteration with bound 52.000000; 5163 expanded, 14978 generated
+Starting iteration with bound 54.000000; 56924 expanded, 166774 generated
+Starting iteration with bound 56.000000; 542378 expanded, 1600799 generated
+IDA*: 0.45s elapsed; 4205874 expanded; 12468818 generated; solution length 56.000000
+BTS on unit STP problem 73
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 13 4 11 15 8 6 9 0 7 3 1 2 10 12 5 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.44s elapsed; 4205874 expanded; 12468818 generated; solution length 56.000000
+Oracle: 0.05s elapsed; 485454 expanded; 1434025 generated; solution length 56.000000
+BTS on non-unit STP problem 74
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 4 0 10 6 5 1 3 9 2 13 15 12 7 8 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 5.94s elapsed; 46860263 expanded; 143646980 generated; solution length 55.136418
+Oracle: 2.74s elapsed; 21797975 expanded; 66763044 generated; solution length 55.136418
+IDA* on unit STP problem 74
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 4 0 10 6 5 1 3 9 2 13 15 12 7 8 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 30.000000; 0 expanded, 0 generated
+Starting iteration with bound 32.000000; 4 expanded, 12 generated
+Starting iteration with bound 34.000000; 51 expanded, 156 generated
+Starting iteration with bound 36.000000; 521 expanded, 1598 generated
+Starting iteration with bound 38.000000; 3830 expanded, 11763 generated
+Starting iteration with bound 40.000000; 24253 expanded, 74239 generated
+Starting iteration with bound 42.000000; 138657 expanded, 424338 generated
+Starting iteration with bound 44.000000; 753951 expanded, 2308494 generated
+Starting iteration with bound 46.000000; 3945813 expanded, 12079528 generated
+Starting iteration with bound 48.000000; 20106804 expanded, 61573547 generated
+IDA*: 2.42s elapsed; 21720710 expanded; 66511473 generated; solution length 48.000000
+BTS on unit STP problem 74
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 4 0 10 6 5 1 3 9 2 13 15 12 7 8 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2.40s elapsed; 21720710 expanded; 66511473 generated; solution length 48.000000
+Oracle: 1.76s elapsed; 16160991 expanded; 49494019 generated; solution length 48.000000
+BTS on non-unit STP problem 75
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 10 8 3 0 6 9 5 1 14 13 11 7 2 12 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 30.21s elapsed; 241485351 expanded; 729796771 generated; solution length 65.909979
+Oracle: 16.01s elapsed; 129228897 expanded; 391542628 generated; solution length 65.909979
+IDA* on unit STP problem 75
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 10 8 3 0 6 9 5 1 14 13 11 7 2 12 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 4 expanded, 10 generated
+Starting iteration with bound 45.000000; 179 expanded, 532 generated
+Starting iteration with bound 47.000000; 2362 expanded, 7053 generated
+Starting iteration with bound 49.000000; 21527 expanded, 64445 generated
+Starting iteration with bound 51.000000; 160352 expanded, 481066 generated
+Starting iteration with bound 53.000000; 1080012 expanded, 3246841 generated
+Starting iteration with bound 55.000000; 6823854 expanded, 20543237 generated
+Starting iteration with bound 57.000000; 41486905 expanded, 125045136 generated
+IDA*: 25.94s elapsed; 236331472 expanded; 713231230 generated; solution length 57.000000
+BTS on unit STP problem 75
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 10 8 3 0 6 9 5 1 14 13 11 7 2 12 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 25.83s elapsed; 236331472 expanded; 713231230 generated; solution length 57.000000
+Oracle: 3.71s elapsed; 34663051 expanded; 104501899 generated; solution length 57.000000
+BTS on non-unit STP problem 76
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 13 2 4 12 14 6 9 15 1 10 3 11 5 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.93s elapsed; 65747832 expanded; 194890607 generated; solution length 62.411855
+Oracle: 3.63s elapsed; 30327529 expanded; 89888290 generated; solution length 62.411855
+IDA* on unit STP problem 76
+
+
+Weights validated
+
+IDA* searching from
+(4x4)0 13 2 4 12 14 6 9 15 1 10 3 11 5 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 1 expanded, 2 generated
+Starting iteration with bound 38.000000; 4 expanded, 10 generated
+Starting iteration with bound 40.000000; 36 expanded, 99 generated
+Starting iteration with bound 42.000000; 197 expanded, 566 generated
+Starting iteration with bound 44.000000; 999 expanded, 2876 generated
+Starting iteration with bound 46.000000; 5684 expanded, 16371 generated
+Starting iteration with bound 48.000000; 34944 expanded, 101535 generated
+Starting iteration with bound 50.000000; 211152 expanded, 616577 generated
+Starting iteration with bound 52.000000; 1279540 expanded, 3752100 generated
+Starting iteration with bound 54.000000; 7709573 expanded, 22699172 generated
+IDA*: 1.04s elapsed; 9768236 expanded; 28826325 generated; solution length 54.000000
+BTS on unit STP problem 76
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 13 2 4 12 14 6 9 15 1 10 3 11 5 8 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.03s elapsed; 9768244 expanded; 28826348 generated; solution length 54.000000
+Oracle: 0.66s elapsed; 6430033 expanded; 18947072 generated; solution length 54.000000
+BTS on non-unit STP problem 77
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 13 6 4 15 8 9 5 12 10 0 2 7 1 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.98s elapsed; 16604603 expanded; 49192739 generated; solution length 61.605578
+Oracle: 0.47s elapsed; 3923620 expanded; 11636565 generated; solution length 61.605578
+IDA* on unit STP problem 77
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 14 13 6 4 15 8 9 5 12 10 0 2 7 1 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 4 expanded, 10 generated
+Starting iteration with bound 45.000000; 161 expanded, 454 generated
+Starting iteration with bound 47.000000; 2466 expanded, 7124 generated
+Starting iteration with bound 49.000000; 23527 expanded, 68606 generated
+Starting iteration with bound 51.000000; 198371 expanded, 582619 generated
+Starting iteration with bound 53.000000; 1475292 expanded, 4356198 generated
+IDA*: 0.62s elapsed; 5882727 expanded; 17441620 generated; solution length 53.000000
+BTS on unit STP problem 77
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 14 13 6 4 15 8 9 5 12 10 0 2 7 1 11 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.62s elapsed; 5882727 expanded; 17441620 generated; solution length 53.000000
+Oracle: 0.13s elapsed; 1276921 expanded; 3773579 generated; solution length 53.000000
+BTS on non-unit STP problem 78
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 1 9 7 11 13 5 3 14 12 4 2 8 6 10 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.07s elapsed; 558348 expanded; 1710832 generated; solution length 48.464344
+Oracle: 0.04s elapsed; 340027 expanded; 1042563 generated; solution length 48.464344
+IDA* on unit STP problem 78
+
+
+Weights validated
+
+IDA* searching from
+(4x4)0 1 9 7 11 13 5 3 14 12 4 2 8 6 10 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 28.000000; 0 expanded, 0 generated
+Starting iteration with bound 30.000000; 1 expanded, 2 generated
+Starting iteration with bound 32.000000; 5 expanded, 13 generated
+Starting iteration with bound 34.000000; 83 expanded, 261 generated
+Starting iteration with bound 36.000000; 599 expanded, 1821 generated
+Starting iteration with bound 38.000000; 3518 expanded, 10755 generated
+Starting iteration with bound 40.000000; 19628 expanded, 59895 generated
+Starting iteration with bound 42.000000; 105471 expanded, 322035 generated
+IDA*: 0.03s elapsed; 256422 expanded; 783913 generated; solution length 42.000000
+BTS on unit STP problem 78
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 1 9 7 11 13 5 3 14 12 4 2 8 6 10 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.03s elapsed; 256430 expanded; 783937 generated; solution length 42.000000
+Oracle: 0.01s elapsed; 85843 expanded; 262140 generated; solution length 42.000000
+BTS on non-unit STP problem 79
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 0 15 8 13 12 3 5 10 1 4 6 14 9 7 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 16.03s elapsed; 133848710 expanded; 397919310 generated; solution length 66.364522
+Oracle: 7.65s elapsed; 64300152 expanded; 191183352 generated; solution length 66.364522
+IDA* on unit STP problem 79
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 0 15 8 13 12 3 5 10 1 4 6 14 9 7 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 2 expanded, 5 generated
+Starting iteration with bound 47.000000; 57 expanded, 161 generated
+Starting iteration with bound 49.000000; 1264 expanded, 3650 generated
+Starting iteration with bound 51.000000; 16348 expanded, 47717 generated
+Starting iteration with bound 53.000000; 167527 expanded, 492052 generated
+Starting iteration with bound 55.000000; 1491346 expanded, 4397467 generated
+Starting iteration with bound 57.000000; 11947538 expanded, 35348373 generated
+IDA*: 7.11s elapsed; 66976966 expanded; 198946455 generated; solution length 57.000000
+BTS on unit STP problem 79
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 0 15 8 13 12 3 5 10 1 4 6 14 9 7 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.06s elapsed; 66976966 expanded; 198946455 generated; solution length 57.000000
+Oracle: 1.07s elapsed; 10456192 expanded; 30950906 generated; solution length 57.000000
+BTS on non-unit STP problem 80
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 0 9 12 11 6 3 5 15 8 1 10 4 14 2 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.35s elapsed; 11189223 expanded; 33185191 generated; solution length 61.381885
+Oracle: 0.83s elapsed; 6945293 expanded; 20650441 generated; solution length 61.381885
+IDA* on unit STP problem 80
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 0 9 12 11 6 3 5 15 8 1 10 4 14 2 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 18 expanded, 51 generated
+Starting iteration with bound 43.000000; 141 expanded, 404 generated
+Starting iteration with bound 45.000000; 946 expanded, 2741 generated
+Starting iteration with bound 47.000000; 7265 expanded, 21166 generated
+Starting iteration with bound 49.000000; 51595 expanded, 151086 generated
+Starting iteration with bound 51.000000; 335752 expanded, 986806 generated
+Starting iteration with bound 53.000000; 2097112 expanded, 6186427 generated
+IDA*: 0.45s elapsed; 4245290 expanded; 12588241 generated; solution length 53.000000
+BTS on unit STP problem 80
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 0 9 12 11 6 3 5 15 8 1 10 4 14 2 7 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.45s elapsed; 4245290 expanded; 12588241 generated; solution length 53.000000
+Oracle: 0.18s elapsed; 1761360 expanded; 5199621 generated; solution length 53.000000
+BTS on non-unit STP problem 81
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 10 2 1 13 9 8 11 7 3 6 12 15 5 4 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 2266.89s elapsed; 18352857621 expanded; 54833062784 generated; solution length 70.808865
+Oracle: 1697.77s elapsed; 3986158299 expanded; 11928016150 generated; solution length 70.808865
+IDA* on unit STP problem 81
+
+
+Weights validated
+
+IDA* searching from
+(4x4)14 10 2 1 13 9 8 11 7 3 6 12 15 5 4 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 40.000000; 0 expanded, 0 generated
+Starting iteration with bound 42.000000; 3 expanded, 8 generated
+Starting iteration with bound 44.000000; 54 expanded, 157 generated
+Starting iteration with bound 46.000000; 520 expanded, 1502 generated
+Starting iteration with bound 48.000000; 4137 expanded, 12059 generated
+Starting iteration with bound 50.000000; 31523 expanded, 92079 generated
+Starting iteration with bound 52.000000; 215771 expanded, 633453 generated
+Starting iteration with bound 54.000000; 1393722 expanded, 4105272 generated
+Starting iteration with bound 56.000000; 8606839 expanded, 25428071 generated
+Starting iteration with bound 58.000000; 51407915 expanded, 152256228 generated
+Starting iteration with bound 60.000000; 299478273 expanded, 888980885 generated
+Starting iteration with bound 62.000000; 1711786731 expanded, 5091682348 generated
+IDA*: 1250.52s elapsed; 8856207046 expanded; 26408323300 generated; solution length 62.000000
+BTS on unit STP problem 81
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)14 10 2 1 13 9 8 11 7 3 6 12 15 5 4 0 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 948.44s elapsed; 8856207046 expanded; 26408323300 generated; solution length 62.000000
+Oracle: 147.27s elapsed; 1412308458 expanded; 4202701463 generated; solution length 62.000000
+BTS on non-unit STP problem 82
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 3 9 1 4 5 10 2 6 11 15 0 14 7 13 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.94s elapsed; 31318540 expanded; 95596240 generated; solution length 55.845835
+Oracle: 1.63s elapsed; 13063859 expanded; 39860561 generated; solution length 55.845835
+IDA* on unit STP problem 82
+
+
+Weights validated
+
+IDA* searching from
+(4x4)12 3 9 1 4 5 10 2 6 11 15 0 14 7 13 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 31.000000; 0 expanded, 0 generated
+Starting iteration with bound 33.000000; 26 expanded, 79 generated
+Starting iteration with bound 35.000000; 122 expanded, 367 generated
+Starting iteration with bound 37.000000; 618 expanded, 1862 generated
+Starting iteration with bound 39.000000; 3118 expanded, 9520 generated
+Starting iteration with bound 41.000000; 15183 expanded, 46243 generated
+Starting iteration with bound 43.000000; 75863 expanded, 231613 generated
+Starting iteration with bound 45.000000; 377523 expanded, 1152485 generated
+Starting iteration with bound 47.000000; 1862481 expanded, 5684044 generated
+Starting iteration with bound 49.000000; 9131844 expanded, 27862109 generated
+IDA*: 1.81s elapsed; 16247142 expanded; 49577543 generated; solution length 49.000000
+BTS on unit STP problem 82
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)12 3 9 1 4 5 10 2 6 11 15 0 14 7 13 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.79s elapsed; 16247142 expanded; 49577543 generated; solution length 49.000000
+Oracle: 0.78s elapsed; 7269363 expanded; 22178065 generated; solution length 49.000000
+BTS on non-unit STP problem 83
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 8 10 7 0 12 14 1 5 9 6 3 13 11 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 38.78s elapsed; 320643299 expanded; 954021889 generated; solution length 63.796787
+Oracle: 24.01s elapsed; 199000631 expanded; 592981471 generated; solution length 63.796787
+IDA* on unit STP problem 83
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 8 10 7 0 12 14 1 5 9 6 3 13 11 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 37.000000; 0 expanded, 0 generated
+Starting iteration with bound 39.000000; 7 expanded, 20 generated
+Starting iteration with bound 41.000000; 57 expanded, 163 generated
+Starting iteration with bound 43.000000; 388 expanded, 1102 generated
+Starting iteration with bound 45.000000; 2856 expanded, 8211 generated
+Starting iteration with bound 47.000000; 22121 expanded, 64214 generated
+Starting iteration with bound 49.000000; 166421 expanded, 486270 generated
+Starting iteration with bound 51.000000; 1195766 expanded, 3517091 generated
+Starting iteration with bound 53.000000; 8090300 expanded, 23915818 generated
+Starting iteration with bound 55.000000; 51697285 expanded, 153393799 generated
+IDA*: 24.70s elapsed; 229384428 expanded; 681924104 generated; solution length 55.000000
+BTS on unit STP problem 83
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 8 10 7 0 12 14 1 5 9 6 3 13 11 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 24.56s elapsed; 229384428 expanded; 681924104 generated; solution length 55.000000
+Oracle: 4.54s elapsed; 43606985 expanded; 129477981 generated; solution length 55.000000
+BTS on non-unit STP problem 84
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 7 13 10 1 2 9 6 12 8 14 5 3 0 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.23s elapsed; 1857438 expanded; 5645424 generated; solution length 50.697269
+Oracle: 0.06s elapsed; 469488 expanded; 1423341 generated; solution length 50.697269
+IDA* on unit STP problem 84
+
+
+Weights validated
+
+IDA* searching from
+(4x4)4 7 13 10 1 2 9 6 12 8 14 5 3 0 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 5 expanded, 15 generated
+Starting iteration with bound 36.000000; 169 expanded, 505 generated
+Starting iteration with bound 38.000000; 1271 expanded, 3822 generated
+Starting iteration with bound 40.000000; 9309 expanded, 28140 generated
+Starting iteration with bound 42.000000; 58546 expanded, 177290 generated
+Starting iteration with bound 44.000000; 341285 expanded, 1035387 generated
+IDA*: 0.15s elapsed; 1409211 expanded; 4285755 generated; solution length 44.000000
+BTS on unit STP problem 84
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 7 13 10 1 2 9 6 12 8 14 5 3 0 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.15s elapsed; 1409211 expanded; 4285755 generated; solution length 44.000000
+Oracle: 0.03s elapsed; 282739 expanded; 858097 generated; solution length 44.000000
+BTS on non-unit STP problem 85
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 5 10 11 12 9 2 1 7 4 3 14 8 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.26s elapsed; 2135307 expanded; 6500317 generated; solution length 51.887898
+Oracle: 0.08s elapsed; 651029 expanded; 1974643 generated; solution length 51.887898
+IDA* on unit STP problem 85
+
+
+Weights validated
+
+IDA* searching from
+(4x4)6 0 5 10 11 12 9 2 1 7 4 3 14 8 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 6 expanded, 16 generated
+Starting iteration with bound 39.000000; 759 expanded, 2296 generated
+Starting iteration with bound 41.000000; 9596 expanded, 29201 generated
+Starting iteration with bound 43.000000; 79701 expanded, 242636 generated
+Starting iteration with bound 45.000000; 539975 expanded, 1644760 generated
+IDA*: 0.08s elapsed; 771622 expanded; 2354596 generated; solution length 45.000000
+BTS on unit STP problem 85
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)6 0 5 10 11 12 9 2 1 7 4 3 14 8 13 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.08s elapsed; 771622 expanded; 2354596 generated; solution length 45.000000
+Oracle: 0.05s elapsed; 460274 expanded; 1402124 generated; solution length 45.000000
+BTS on non-unit STP problem 86
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 5 11 10 13 0 2 1 8 6 14 12 4 7 3 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 33.20s elapsed; 267263508 expanded; 807086646 generated; solution length 60.960578
+Oracle: 11.32s elapsed; 91924670 expanded; 277551955 generated; solution length 60.960578
+IDA* on unit STP problem 86
+
+
+Weights validated
+
+IDA* searching from
+(4x4)9 5 11 10 13 0 2 1 8 6 14 12 4 7 3 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 7 expanded, 21 generated
+Starting iteration with bound 38.000000; 70 expanded, 208 generated
+Starting iteration with bound 40.000000; 488 expanded, 1463 generated
+Starting iteration with bound 42.000000; 3385 expanded, 10164 generated
+Starting iteration with bound 44.000000; 21476 expanded, 64392 generated
+Starting iteration with bound 46.000000; 130142 expanded, 390259 generated
+Starting iteration with bound 48.000000; 769561 expanded, 2310705 generated
+Starting iteration with bound 50.000000; 4475364 expanded, 13454661 generated
+Starting iteration with bound 52.000000; 25549088 expanded, 76921425 generated
+IDA*: 3.95s elapsed; 36290239 expanded; 109420672 generated; solution length 52.000000
+BTS on unit STP problem 86
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 5 11 10 13 0 2 1 8 6 14 12 4 7 3 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.92s elapsed; 36290239 expanded; 109420672 generated; solution length 52.000000
+Oracle: 2.23s elapsed; 21073724 expanded; 63466764 generated; solution length 52.000000
+BTS on non-unit STP problem 87
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 2 12 11 14 13 9 5 1 3 8 7 0 10 6 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1170.82s elapsed; 9731739880 expanded; 28779688712 generated; solution length 74.385553
+Oracle: 1554.15s elapsed; 4363465555 expanded; 12939073529 generated; solution length 74.385553
+IDA* on unit STP problem 87
+
+
+Weights validated
+
+IDA* searching from
+(4x4)15 2 12 11 14 13 9 5 1 3 8 7 0 10 6 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 43.000000; 0 expanded, 0 generated
+Starting iteration with bound 45.000000; 1 expanded, 2 generated
+Starting iteration with bound 47.000000; 6 expanded, 15 generated
+Starting iteration with bound 49.000000; 124 expanded, 344 generated
+Starting iteration with bound 51.000000; 1894 expanded, 5374 generated
+Starting iteration with bound 53.000000; 19725 expanded, 56665 generated
+Starting iteration with bound 55.000000; 178844 expanded, 517780 generated
+Starting iteration with bound 57.000000; 1440408 expanded, 4192921 generated
+Starting iteration with bound 59.000000; 10631705 expanded, 31076618 generated
+Starting iteration with bound 61.000000; 73811670 expanded, 216501766 generated
+Starting iteration with bound 63.000000; 489295195 expanded, 1439529817 generated
+Starting iteration with bound 65.000000; 3131230855 expanded, 9237649870 generated
+IDA*: 354.94s elapsed; 3337957885 expanded; 9852980369 generated; solution length 65.000000
+BTS on unit STP problem 87
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)15 2 12 11 14 13 9 5 1 3 8 7 0 10 6 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 353.37s elapsed; 3337957893 expanded; 9852980392 generated; solution length 65.000000
+Oracle: 274.15s elapsed; 2641935660 expanded; 7798120053 generated; solution length 65.000000
+BTS on non-unit STP problem 88
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 1 7 4 10 13 3 8 9 14 0 15 6 5 2 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.58s elapsed; 69582796 expanded; 209658021 generated; solution length 61.632735
+Oracle: 4.36s elapsed; 35551243 expanded; 106905722 generated; solution length 61.632735
+IDA* on unit STP problem 88
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 1 7 4 10 13 3 8 9 14 0 15 6 5 2 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 72 expanded, 214 generated
+Starting iteration with bound 42.000000; 421 expanded, 1243 generated
+Starting iteration with bound 44.000000; 2740 expanded, 8090 generated
+Starting iteration with bound 46.000000; 17079 expanded, 50792 generated
+Starting iteration with bound 48.000000; 107078 expanded, 320014 generated
+Starting iteration with bound 50.000000; 663582 expanded, 1990932 generated
+Starting iteration with bound 52.000000; 3945078 expanded, 11863224 generated
+Starting iteration with bound 54.000000; 22747603 expanded, 68520474 generated
+IDA*: 6.35s elapsed; 58127959 expanded; 174635340 generated; solution length 54.000000
+BTS on unit STP problem 88
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 1 7 4 10 13 3 8 9 14 0 15 6 5 2 12 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 6.32s elapsed; 58127959 expanded; 174635340 generated; solution length 54.000000
+Oracle: 2.02s elapsed; 18802525 expanded; 56657250 generated; solution length 54.000000
+BTS on non-unit STP problem 89
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 4 7 1 11 12 14 15 10 13 8 6 2 0 9 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.85s elapsed; 15403182 expanded; 45736654 generated; solution length 57.456383
+Oracle: 0.84s elapsed; 6981646 expanded; 20806815 generated; solution length 57.456383
+IDA* on unit STP problem 89
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 4 7 1 11 12 14 15 10 13 8 6 2 0 9 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 36.000000; 0 expanded, 0 generated
+Starting iteration with bound 38.000000; 26 expanded, 75 generated
+Starting iteration with bound 40.000000; 163 expanded, 470 generated
+Starting iteration with bound 42.000000; 1202 expanded, 3493 generated
+Starting iteration with bound 44.000000; 8807 expanded, 25746 generated
+Starting iteration with bound 46.000000; 62638 expanded, 183995 generated
+Starting iteration with bound 48.000000; 420236 expanded, 1239502 generated
+Starting iteration with bound 50.000000; 2671016 expanded, 7906026 generated
+IDA*: 0.46s elapsed; 4399101 expanded; 13012426 generated; solution length 50.000000
+BTS on unit STP problem 89
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 4 7 1 11 12 14 15 10 13 8 6 2 0 9 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.46s elapsed; 4399101 expanded; 13012426 generated; solution length 50.000000
+Oracle: 0.23s elapsed; 2250780 expanded; 6666524 generated; solution length 50.000000
+BTS on non-unit STP problem 90
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 7 5 2 14 15 12 10 11 3 6 1 8 13 0 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 70.04s elapsed; 584622601 expanded; 1734288629 generated; solution length 66.305803
+Oracle: 41.10s elapsed; 344587466 expanded; 1024069102 generated; solution length 66.305803
+IDA* on unit STP problem 90
+
+
+Weights validated
+
+IDA* searching from
+(4x4)9 7 5 2 14 15 12 10 11 3 6 1 8 13 0 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 41.000000; 0 expanded, 0 generated
+Starting iteration with bound 43.000000; 2 expanded, 5 generated
+Starting iteration with bound 45.000000; 400 expanded, 1151 generated
+Starting iteration with bound 47.000000; 4866 expanded, 14037 generated
+Starting iteration with bound 49.000000; 43580 expanded, 126378 generated
+Starting iteration with bound 51.000000; 336439 expanded, 981601 generated
+Starting iteration with bound 53.000000; 2399455 expanded, 7035688 generated
+Starting iteration with bound 55.000000; 16127950 expanded, 47497721 generated
+Starting iteration with bound 57.000000; 103158022 expanded, 304933640 generated
+IDA*: 29.39s elapsed; 278328926 expanded; 822674711 generated; solution length 57.000000
+BTS on unit STP problem 90
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 7 5 2 14 15 12 10 11 3 6 1 8 13 0 4 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 29.28s elapsed; 278328926 expanded; 822674711 generated; solution length 57.000000
+Oracle: 9.00s elapsed; 87030072 expanded; 257435919 generated; solution length 57.000000
+BTS on non-unit STP problem 91
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 2 7 9 0 15 12 4 6 11 5 14 8 13 10 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 271.87s elapsed; 2241264933 expanded; 6684886519 generated; solution length 66.312562
+Oracle: 164.13s elapsed; 1358087676 expanded; 4055647196 generated; solution length 66.312562
+IDA* on unit STP problem 91
+
+
+Weights validated
+
+IDA* searching from
+(4x4)3 2 7 9 0 15 12 4 6 11 5 14 8 13 10 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 37.000000; 0 expanded, 0 generated
+Starting iteration with bound 39.000000; 3 expanded, 8 generated
+Starting iteration with bound 41.000000; 142 expanded, 403 generated
+Starting iteration with bound 43.000000; 1369 expanded, 3931 generated
+Starting iteration with bound 45.000000; 10149 expanded, 29329 generated
+Starting iteration with bound 47.000000; 68940 expanded, 201012 generated
+Starting iteration with bound 49.000000; 439225 expanded, 1288738 generated
+Starting iteration with bound 51.000000; 2659216 expanded, 7839979 generated
+Starting iteration with bound 53.000000; 15449691 expanded, 45723822 generated
+Starting iteration with bound 55.000000; 87044838 expanded, 258433728 generated
+Starting iteration with bound 57.000000; 479024321 expanded, 1425899878 generated
+IDA*: 55.45s elapsed; 517713487 expanded; 1541205775 generated; solution length 57.000000
+BTS on unit STP problem 91
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)3 2 7 9 0 15 12 4 6 11 5 14 8 13 10 1 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 55.24s elapsed; 517713487 expanded; 1541205775 generated; solution length 57.000000
+Oracle: 40.94s elapsed; 391979483 expanded; 1167466150 generated; solution length 57.000000
+BTS on non-unit STP problem 92
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 9 14 6 12 8 1 2 3 4 0 7 5 10 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.57s elapsed; 4632863 expanded; 14013238 generated; solution length 53.747050
+Oracle: 0.24s elapsed; 1958144 expanded; 5940568 generated; solution length 53.747050
+IDA* on unit STP problem 92
+
+
+Weights validated
+
+IDA* searching from
+(4x4)13 9 14 6 12 8 1 2 3 4 0 7 5 10 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 4 expanded, 12 generated
+Starting iteration with bound 38.000000; 215 expanded, 639 generated
+Starting iteration with bound 40.000000; 2074 expanded, 6192 generated
+Starting iteration with bound 42.000000; 16971 expanded, 51042 generated
+Starting iteration with bound 44.000000; 116155 expanded, 350106 generated
+Starting iteration with bound 46.000000; 727519 expanded, 2196875 generated
+IDA*: 0.45s elapsed; 4157786 expanded; 12576696 generated; solution length 46.000000
+BTS on unit STP problem 92
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)13 9 14 6 12 8 1 2 3 4 0 7 5 10 11 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.45s elapsed; 4157786 expanded; 12576696 generated; solution length 46.000000
+Oracle: 0.06s elapsed; 611364 expanded; 1846769 generated; solution length 46.000000
+BTS on non-unit STP problem 93
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 11 8 0 14 9 13 10 12 3 15 6 1 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.23s elapsed; 1915839 expanded; 5740635 generated; solution length 62.059348
+Oracle: 0.04s elapsed; 355787 expanded; 1060636 generated; solution length 62.059348
+IDA* on unit STP problem 93
+
+
+Weights validated
+
+IDA* searching from
+(4x4)5 7 11 8 0 14 9 13 10 12 3 15 6 1 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 45.000000; 0 expanded, 0 generated
+Starting iteration with bound 47.000000; 2 expanded, 5 generated
+Starting iteration with bound 49.000000; 298 expanded, 853 generated
+Starting iteration with bound 51.000000; 5378 expanded, 15658 generated
+Starting iteration with bound 53.000000; 69877 expanded, 206597 generated
+IDA*: 0.07s elapsed; 659460 expanded; 1970691 generated; solution length 53.000000
+BTS on unit STP problem 93
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)5 7 11 8 0 14 9 13 10 12 3 15 6 1 4 2 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.07s elapsed; 659460 expanded; 1970691 generated; solution length 53.000000
+Oracle: 0.01s elapsed; 64499 expanded; 190939 generated; solution length 53.000000
+BTS on non-unit STP problem 94
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 3 6 13 7 15 9 0 10 5 8 11 2 12 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.60s elapsed; 13165419 expanded; 39306456 generated; solution length 58.656829
+Oracle: 0.90s elapsed; 7373240 expanded; 22046075 generated; solution length 58.656829
+IDA* on unit STP problem 94
+
+
+Weights validated
+
+IDA* searching from
+(4x4)4 3 6 13 7 15 9 0 10 5 8 11 2 12 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 2 expanded, 5 generated
+Starting iteration with bound 38.000000; 29 expanded, 83 generated
+Starting iteration with bound 40.000000; 234 expanded, 674 generated
+Starting iteration with bound 42.000000; 1464 expanded, 4254 generated
+Starting iteration with bound 44.000000; 9313 expanded, 27302 generated
+Starting iteration with bound 46.000000; 55964 expanded, 164869 generated
+Starting iteration with bound 48.000000; 332120 expanded, 983637 generated
+Starting iteration with bound 50.000000; 1959754 expanded, 5830830 generated
+IDA*: 1.18s elapsed; 10952581 expanded; 32720251 generated; solution length 50.000000
+BTS on unit STP problem 94
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)4 3 6 13 7 15 9 0 10 5 8 11 2 12 1 14 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 1.17s elapsed; 10952581 expanded; 32720251 generated; solution length 50.000000
+Oracle: 0.17s elapsed; 1627634 expanded; 4847193 generated; solution length 50.000000
+BTS on non-unit STP problem 95
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 7 15 14 2 6 4 9 12 11 13 3 0 8 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.08s elapsed; 24715224 expanded; 75370598 generated; solution length 55.849614
+Oracle: 1.19s elapsed; 9496765 expanded; 29093185 generated; solution length 55.849614
+IDA* on unit STP problem 95
+
+
+Weights validated
+
+IDA* searching from
+(4x4)1 7 15 14 2 6 4 9 12 11 13 3 0 8 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 35.000000; 0 expanded, 0 generated
+Starting iteration with bound 37.000000; 10 expanded, 29 generated
+Starting iteration with bound 39.000000; 170 expanded, 509 generated
+Starting iteration with bound 41.000000; 2151 expanded, 6577 generated
+Starting iteration with bound 43.000000; 18451 expanded, 56237 generated
+Starting iteration with bound 45.000000; 130568 expanded, 397040 generated
+Starting iteration with bound 47.000000; 830223 expanded, 2522541 generated
+Starting iteration with bound 49.000000; 4913351 expanded, 14916570 generated
+IDA*: 0.66s elapsed; 6036891 expanded; 18308979 generated; solution length 49.000000
+BTS on unit STP problem 95
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)1 7 15 14 2 6 4 9 12 11 13 3 0 8 5 10 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.65s elapsed; 6036891 expanded; 18308979 generated; solution length 49.000000
+Oracle: 0.44s elapsed; 4083128 expanded; 12394029 generated; solution length 49.000000
+BTS on non-unit STP problem 96
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 14 5 7 8 15 1 2 10 4 13 6 12 0 11 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.30s elapsed; 2436112 expanded; 7377916 generated; solution length 51.648882
+Oracle: 0.20s elapsed; 1599371 expanded; 4847519 generated; solution length 51.648882
+IDA* on unit STP problem 96
+
+
+Weights validated
+
+IDA* searching from
+(4x4)9 14 5 7 8 15 1 2 10 4 13 6 12 0 11 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 32.000000; 0 expanded, 0 generated
+Starting iteration with bound 34.000000; 1 expanded, 3 generated
+Starting iteration with bound 36.000000; 88 expanded, 267 generated
+Starting iteration with bound 38.000000; 1287 expanded, 3862 generated
+Starting iteration with bound 40.000000; 10952 expanded, 32966 generated
+Starting iteration with bound 42.000000; 71564 expanded, 216076 generated
+Starting iteration with bound 44.000000; 420303 expanded, 1271001 generated
+IDA*: 0.21s elapsed; 1910562 expanded; 5778040 generated; solution length 44.000000
+BTS on unit STP problem 96
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)9 14 5 7 8 15 1 2 10 4 13 6 12 0 11 3 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 0.21s elapsed; 1910578 expanded; 5778088 generated; solution length 44.000000
+Oracle: 0.04s elapsed; 348739 expanded; 1054925 generated; solution length 44.000000
+BTS on non-unit STP problem 97
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 11 3 12 5 2 1 9 8 10 14 15 7 4 13 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 50.71s elapsed; 397325904 expanded; 1212865253 generated; solution length 61.914226
+Oracle: 13.85s elapsed; 110581031 expanded; 337843894 generated; solution length 61.914226
+IDA* on unit STP problem 97
+
+
+Weights validated
+
+IDA* searching from
+(4x4)0 11 3 12 5 2 1 9 8 10 14 15 7 4 13 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 34.000000; 0 expanded, 0 generated
+Starting iteration with bound 36.000000; 1 expanded, 2 generated
+Starting iteration with bound 38.000000; 18 expanded, 52 generated
+Starting iteration with bound 40.000000; 207 expanded, 613 generated
+Starting iteration with bound 42.000000; 1684 expanded, 5042 generated
+Starting iteration with bound 44.000000; 10615 expanded, 31927 generated
+Starting iteration with bound 46.000000; 62018 expanded, 186910 generated
+Starting iteration with bound 48.000000; 350932 expanded, 1059074 generated
+Starting iteration with bound 50.000000; 1944428 expanded, 5878904 generated
+Starting iteration with bound 52.000000; 10585009 expanded, 32048046 generated
+Starting iteration with bound 54.000000; 56845528 expanded, 172335955 generated
+IDA*: 8.27s elapsed; 75042351 expanded; 226928741 generated; solution length 54.000000
+BTS on unit STP problem 97
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)0 11 3 12 5 2 1 9 8 10 14 15 7 4 13 6 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.35s elapsed; 75042367 expanded; 226928788 generated; solution length 54.000000
+Oracle: 5.00s elapsed; 46260519 expanded; 140287909 generated; solution length 54.000000
+BTS on non-unit STP problem 98
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 15 4 0 10 9 2 5 12 11 13 6 1 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 13.81s elapsed; 116673296 expanded; 342334186 generated; solution length 66.426436
+Oracle: 7.80s elapsed; 66016329 expanded; 194130742 generated; solution length 66.426436
+IDA* on unit STP problem 98
+
+
+Weights validated
+
+IDA* searching from
+(4x4)7 15 4 0 10 9 2 5 12 11 13 6 1 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 39.000000; 0 expanded, 0 generated
+Starting iteration with bound 41.000000; 1 expanded, 2 generated
+Starting iteration with bound 43.000000; 13 expanded, 34 generated
+Starting iteration with bound 45.000000; 159 expanded, 448 generated
+Starting iteration with bound 47.000000; 1274 expanded, 3621 generated
+Starting iteration with bound 49.000000; 9053 expanded, 25906 generated
+Starting iteration with bound 51.000000; 63186 expanded, 181961 generated
+Starting iteration with bound 53.000000; 431699 expanded, 1250987 generated
+Starting iteration with bound 55.000000; 2871173 expanded, 8364375 generated
+Starting iteration with bound 57.000000; 18624061 expanded, 54500218 generated
+IDA*: 7.91s elapsed; 75455945 expanded; 220996334 generated; solution length 57.000000
+BTS on unit STP problem 98
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)7 15 4 0 10 9 2 5 12 11 13 6 1 3 14 8 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 7.88s elapsed; 75456089 expanded; 220996745 generated; solution length 57.000000
+Oracle: 1.61s elapsed; 15752888 expanded; 46135843 generated; solution length 57.000000
+BTS on non-unit STP problem 99
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 4 0 8 6 10 5 13 12 7 14 3 1 2 9 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 8.18s elapsed; 66476512 expanded; 199869456 generated; solution length 62.610004
+Oracle: 3.11s elapsed; 25550562 expanded; 76886736 generated; solution length 62.610004
+IDA* on unit STP problem 99
+
+
+Weights validated
+
+IDA* searching from
+(4x4)11 4 0 8 6 10 5 13 12 7 14 3 1 2 9 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Starting iteration with bound 38.000000; 0 expanded, 0 generated
+Starting iteration with bound 40.000000; 2 expanded, 5 generated
+Starting iteration with bound 42.000000; 52 expanded, 147 generated
+Starting iteration with bound 44.000000; 737 expanded, 2136 generated
+Starting iteration with bound 46.000000; 7185 expanded, 21035 generated
+Starting iteration with bound 48.000000; 57807 expanded, 170893 generated
+Starting iteration with bound 50.000000; 414891 expanded, 1234273 generated
+Starting iteration with bound 52.000000; 2773208 expanded, 8293296 generated
+Starting iteration with bound 54.000000; 17571691 expanded, 52754248 generated
+IDA*: 3.01s elapsed; 27687835 expanded; 83326066 generated; solution length 54.000000
+BTS on unit STP problem 99
+
+
+Weights validated
+
+IBEX(2, 8, 2.00, exp):  search from
+(4x4)11 4 0 8 6 10 5 13 12 7 14 3 1 2 9 15 
+(4x4)0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+IBEX: 3.00s elapsed; 27687835 expanded; 83326066 generated; solution length 54.000000
+Oracle: 1.57s elapsed; 14798483 expanded; 44460952 generated; solution length 54.000000

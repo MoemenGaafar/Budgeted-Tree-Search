@@ -1,0 +1,22 @@
+Performing BTS with c1 = 2 and c2 = 8
+
+Doing Regular IDA* with f-limit = 37.000000; Expanded 0; Generated 0;
+
+Doing Regular IDA* with f-limit = 39.000000; Expanded 34; Generated 100;
+
+Doing Regular IDA* with f-limit = 41.000000; Expanded 267; Generated 780;
+
+Doing Regular IDA* with f-limit = 43.000000; Expanded 2090; Generated 6189;
+
+Doing Regular IDA* with f-limit = 45.000000; Expanded 14182; Generated 42138;
+
+Doing Regular IDA* with f-limit = 47.000000; Expanded 90297; Generated 268869;
+
+Doing Regular IDA* with f-limit = 49.000000; Expanded 549724; Generated 1640020;
+
+Doing Regular IDA* with f-limit = 51.000000; Expanded 3196345; Generated 9553950;
+
+Doing Regular IDA* with f-limit = 53.000000; Expanded 9709646; Generated 29071514;
+
+GOAL found with path of cost = 53.000000
+Summary: total_expanded 13562585;total_generated 40583560;goal_cost 53.000000; time_taken: 54.852098 sec;

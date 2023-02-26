@@ -1,0 +1,9 @@
+Searching at f-limit = 36.000000; Expanded 0; Generated 0;
+Searching at f-limit = 38.000000; Expanded 409; Generated 1203;
+Searching at f-limit = 40.000000; Expanded 6354; Generated 18872;
+Searching at f-limit = 42.000000; Expanded 55058; Generated 163989;
+Searching at f-limit = 44.000000; Expanded 370720; Generated 1106340;
+Searching at f-limit = 46.000000; Expanded 2000210; Generated 5979289;
+
+GOAL found with path of cost = 46.000000
+Summary: total_expanded 2000210;total_generated 5979289;goal_cost 46.000000; time_taken: 8.457085 sec;

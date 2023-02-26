@@ -1,0 +1,248 @@
+Performing BTS with c1 = 2 and c2 = 8
+
+Doing Regular IDA* with f-limit = 45.608396; Expanded 0; Generated 0;
+
+Doing Regular IDA* with f-limit = 47.830618; Expanded 3; Generated 8;
+
+Doing Regular IDA* with f-limit = 47.894110; Expanded 21; Generated 60;
+
+Doing Regular IDA* with f-limit = 48.008396; Expanded 49; Generated 144;
+
+Doing Regular IDA* with f-limit = 48.608396; Expanded 50; Generated 147;
+
+Doing EXP Search with interval: [98, 392]
+Searching with f-limit = 50.608396; Expanded 393; Generated 1118;
+
+Doing BIN search with interval: [48.608396, 50.608396]
+Searching with f-limit = 49.608396; Expanded 51; Generated 149;
+Searching with f-limit = 50.108396; Expanded 371; Generated 1070;
+
+Doing Regular IDA* with f-limit = 50.116332; Expanded 371; Generated 1070;
+
+Doing EXP Search with interval: [742, 2968]
+Searching with f-limit = 52.116332; Expanded 467; Generated 1347;
+Searching with f-limit = 56.116332; Expanded 2969; Generated 8513;
+
+Doing BIN search with interval: [52.116332, 56.116332]
+Searching with f-limit = 54.116332; Expanded 2969; Generated 8668;
+Searching with f-limit = 53.116332; Expanded 2969; Generated 8661;
+Searching with f-limit = 52.616332; Expanded 2969; Generated 8693;
+Searching with f-limit = 52.366332; Expanded 1787; Generated 5183;
+
+Doing Regular IDA* with f-limit = 52.379824; Expanded 1787; Generated 5183;
+
+Doing EXP Search with interval: [3574, 14296]
+Searching with f-limit = 54.379824; Expanded 3764; Generated 10959;
+
+Doing Regular IDA* with f-limit = 54.384189; Expanded 3787; Generated 11029;
+
+Doing EXP Search with interval: [7528, 30112]
+Searching with f-limit = 56.384189; Expanded 27386; Generated 80020;
+
+Doing Regular IDA* with f-limit = 56.431484; Expanded 27386; Generated 80020;
+
+Doing EXP Search with interval: [54772, 219088]
+Searching with f-limit = 58.431484; Expanded 184135; Generated 541057;
+
+Doing Regular IDA* with f-limit = 58.449666; Expanded 184135; Generated 541057;
+
+Doing EXP Search with interval: [368270, 1473080]
+Searching with f-limit = 60.449666; Expanded 1162749; Generated 3428331;
+
+Doing Regular IDA* with f-limit = 60.451253; Expanded 1162826; Generated 3428553;
+
+Doing EXP Search with interval: [2325498, 9301992]
+Searching with f-limit = 62.451253; Expanded 6753577; Generated 19995398;
+
+Doing Regular IDA* with f-limit = 62.452443; Expanded 6758542; Generated 20010086;
+
+Doing EXP Search with interval: [13507154, 54028616]
+Searching with f-limit = 64.452443; Expanded 35653916; Generated 106021769;
+
+Doing Regular IDA* with f-limit = 64.453778; Expanded 35688267; Generated 106120362;
+
+Doing EXP Search with interval: [71307832, 285231328]
+Searching with f-limit = 66.453778; Expanded 166091310; Generated 495320915;
+
+Doing Regular IDA* with f-limit = 66.455293; Expanded 166191948; Generated 495614974;
+
+Doing EXP Search with interval: [332182620, 1328730480]
+Searching with f-limit = 68.455293; Expanded 668007217; Generated 1994677411;
+
+Doing Regular IDA* with f-limit = 68.456484; Expanded 668905881; Generated 1997403444;
+
+Doing EXP Search with interval: [1336014434, 5344057736]
+Searching with f-limit = 70.456484; Expanded 2484361567; Generated -1175385662;
+Searching with f-limit = 74.456484; Expanded 1228624338; Generated -277088156;
+
+GOAL found with path of cost = 70.808865
+Summary: total_expanded 5469809957;total_generated 3790861581;goal_cost 70.808865; time_taken: 9351.292790 sec;
+
+----------------------------------------------------------------
+
+Performing BTS with c1 = 5 and c2 = 5
+
+Doing Regular IDA* with f-limit = 45.608396; Expanded 0; Generated 0;
+
+Doing Regular IDA* with f-limit = 47.830618; Expanded 3; Generated 8;
+
+Doing Regular IDA* with f-limit = 47.894110; Expanded 21; Generated 60;
+
+Doing Regular IDA* with f-limit = 48.008396; Expanded 49; Generated 144;
+
+Doing EXP Search with interval: [105, 105]
+Searching with f-limit = 50.008396; Expanded 62; Generated 181;
+Searching with f-limit = 54.008396; Expanded 106; Generated 288;
+
+Doing BIN search with interval: [50.008396, 54.008396]
+Searching with f-limit = 52.008396; Expanded 106; Generated 289;
+Searching with f-limit = 51.008396; Expanded 106; Generated 288;
+Searching with f-limit = 50.508396; Expanded 106; Generated 290;
+Searching with f-limit = 50.258396; Expanded 106; Generated 287;
+Searching with f-limit = 50.133396; Expanded 106; Generated 285;
+Searching with f-limit = 50.070896; Expanded 106; Generated 295;
+
+Doing Regular IDA* with f-limit = 50.070896; Expanded 122; Generated 351;
+
+Doing EXP Search with interval: [530, 530]
+Searching with f-limit = 52.070896; Expanded 466; Generated 1345;
+Searching with f-limit = 56.070896; Expanded 531; Generated 1513;
+
+Doing BIN search with interval: [52.070896, 56.070896]
+Searching with f-limit = 54.070896; Expanded 531; Generated 1516;
+Searching with f-limit = 53.070896; Expanded 531; Generated 1522;
+Searching with f-limit = 52.570896; Expanded 531; Generated 1526;
+Searching with f-limit = 52.320896; Expanded 531; Generated 1525;
+Searching with f-limit = 52.195896; Expanded 492; Generated 1415;
+Searching with f-limit = 52.258396; Expanded 531; Generated 1513;
+
+Doing Regular IDA* with f-limit = 52.258396; Expanded 803; Generated 2297;
+
+Doing EXP Search with interval: [2655, 2655]
+Searching with f-limit = 54.258396; Expanded 2656; Generated 7728;
+
+Doing BIN search with interval: [52.258396, 54.258396]
+Searching with f-limit = 53.258396; Expanded 2656; Generated 7735;
+Searching with f-limit = 52.758396; Expanded 2656; Generated 7761;
+Searching with f-limit = 52.508396; Expanded 2643; Generated 7717;
+Searching with f-limit = 52.633396; Expanded 2656; Generated 7784;
+Searching with f-limit = 52.570896; Expanded 2656; Generated 7749;
+
+Doing Regular IDA* with f-limit = 52.570896; Expanded 2735; Generated 7988;
+
+Doing EXP Search with interval: [13280, 13280]
+Searching with f-limit = 54.570896; Expanded 8934; Generated 26017;
+Searching with f-limit = 58.570896; Expanded 13281; Generated 38405;
+
+Doing BIN search with interval: [54.570896, 58.570896]
+Searching with f-limit = 56.570896; Expanded 13281; Generated 38666;
+Searching with f-limit = 55.570896; Expanded 13281; Generated 38771;
+Searching with f-limit = 55.070896; Expanded 13281; Generated 38872;
+Searching with f-limit = 54.820896; Expanded 13281; Generated 38988;
+Searching with f-limit = 54.695896; Expanded 13281; Generated 38882;
+Searching with f-limit = 54.633396; Expanded 11349; Generated 33169;
+
+Doing Regular IDA* with f-limit = 54.633396; Expanded 11349; Generated 33169;
+
+Doing EXP Search with interval: [56745, 56745]
+Searching with f-limit = 56.633396; Expanded 31512; Generated 91820;
+Searching with f-limit = 60.633396; Expanded 56746; Generated 164827;
+
+Doing BIN search with interval: [56.633396, 60.633396]
+Searching with f-limit = 58.633396; Expanded 56746; Generated 166363;
+Searching with f-limit = 57.633396; Expanded 56746; Generated 166774;
+Searching with f-limit = 57.133396; Expanded 56746; Generated 167232;
+Searching with f-limit = 56.883396; Expanded 56746; Generated 166458;
+Searching with f-limit = 56.758396; Expanded 46463; Generated 135464;
+Searching with f-limit = 56.820896; Expanded 56746; Generated 165847;
+
+Doing Regular IDA* with f-limit = 56.820896; Expanded 58063; Generated 169696;
+
+Doing EXP Search with interval: [283730, 283730]
+Searching with f-limit = 58.820896; Expanded 197082; Generated 578327;
+Searching with f-limit = 62.820896; Expanded 283731; Generated 827207;
+
+Doing BIN search with interval: [58.820896, 62.820896]
+Searching with f-limit = 60.820896; Expanded 283731; Generated 831398;
+Searching with f-limit = 59.820896; Expanded 283731; Generated 837549;
+Searching with f-limit = 59.320896; Expanded 283731; Generated 837826;
+Searching with f-limit = 59.070896; Expanded 283731; Generated 834145;
+Searching with f-limit = 58.945896; Expanded 250359; Generated 733786;
+Searching with f-limit = 59.008396; Expanded 283731; Generated 831847;
+
+Doing Regular IDA* with f-limit = 59.008396; Expanded 306399; Generated 898017;
+
+Doing EXP Search with interval: [1418655, 1418655]
+Searching with f-limit = 61.008396; Expanded 1217883; Generated 3586920;
+Searching with f-limit = 65.008396; Expanded 1418656; Generated 4158509;
+
+Doing BIN search with interval: [61.008396, 65.008396]
+Searching with f-limit = 63.008396; Expanded 1418656; Generated 4166918;
+Searching with f-limit = 62.008396; Expanded 1418656; Generated 4195865;
+Searching with f-limit = 61.508396; Expanded 1418656; Generated 4197282;
+Searching with f-limit = 61.258396; Expanded 1418656; Generated 4179429;
+Searching with f-limit = 61.133396; Expanded 1418656; Generated 4173623;
+Searching with f-limit = 61.070896; Expanded 1284095; Generated 3779618;
+
+Doing Regular IDA* with f-limit = 61.070896; Expanded 1284095; Generated 3779618;
+
+Doing EXP Search with interval: [6420475, 6420475]
+Searching with f-limit = 63.070896; Expanded 6420476; Generated 18986423;
+
+Doing BIN search with interval: [61.070896, 63.070896]
+Searching with f-limit = 62.070896; Expanded 5989035; Generated 17773312;
+Searching with f-limit = 62.570896; Expanded 6420476; Generated 19005181;
+Searching with f-limit = 62.320896; Expanded 6420476; Generated 19027128;
+Searching with f-limit = 62.195896; Expanded 6297121; Generated 18677737;
+Searching with f-limit = 62.258396; Expanded 6417497; Generated 19026818;
+
+Doing Regular IDA* with f-limit = 62.258396; Expanded 6417497; Generated 19026818;
+
+Doing EXP Search with interval: [32087485, 32087485]
+Searching with f-limit = 64.258396; Expanded 32066862; Generated 95416896;
+Searching with f-limit = 68.258396; Expanded 32087486; Generated 94655089;
+
+Doing BIN search with interval: [64.258396, 68.258396]
+Searching with f-limit = 66.258396; Expanded 32087486; Generated 95451347;
+Searching with f-limit = 65.258396; Expanded 32087486; Generated 95178003;
+Searching with f-limit = 64.758396; Expanded 32087486; Generated 95285439;
+Searching with f-limit = 64.508396; Expanded 32087486; Generated 95392307;
+Searching with f-limit = 64.383396; Expanded 32087486; Generated 95463892;
+Searching with f-limit = 64.320896; Expanded 32087486; Generated 95465567;
+
+Doing Regular IDA* with f-limit = 64.320896; Expanded 33328358; Generated 99149894;
+
+Doing EXP Search with interval: [160437430, 160437430]
+Searching with f-limit = 66.320896; Expanded 145154219; Generated 432868916;
+Searching with f-limit = 70.320896; Expanded 160437431; Generated 474235584;
+
+Doing BIN search with interval: [66.320896, 70.320896]
+Searching with f-limit = 68.320896; Expanded 160437431; Generated 477873226;
+Searching with f-limit = 67.320896; Expanded 160437431; Generated 476802633;
+Searching with f-limit = 66.820896; Expanded 160437431; Generated 478076494;
+Searching with f-limit = 66.570896; Expanded 160437431; Generated 478444480;
+Searching with f-limit = 66.445896; Expanded 160437431; Generated 478436438;
+Searching with f-limit = 66.383396; Expanded 155334261; Generated 463225846;
+
+Doing Regular IDA* with f-limit = 66.383396; Expanded 155334261; Generated 463225846;
+
+Doing EXP Search with interval: [776671305, 776671305]
+Searching with f-limit = 68.383396; Expanded 606746742; Generated 1810571024;
+Searching with f-limit = 72.383396; Expanded 776671306; Generated -1995142984;
+
+Doing BIN search with interval: [68.383396, 72.383396]
+Searching with f-limit = 70.383396; Expanded 776671306; Generated -1979511254;
+Searching with f-limit = 69.383396; Expanded 776671306; Generated -1981381964;
+Searching with f-limit = 68.883396; Expanded 776671306; Generated -1973901159;
+Searching with f-limit = 68.633396; Expanded 776671306; Generated -1974175507;
+Searching with f-limit = 68.508396; Expanded 713982553; Generated 2132445719;
+Searching with f-limit = 68.570896; Expanded 769803330; Generated -1995201171;
+
+Doing Regular IDA* with f-limit = 68.570896; Expanded 769803330; Generated -1995201171;
+
+Doing EXP Search with interval: [3849016650, 3849016650]
+Searching with f-limit = 70.570896; Expanded 2484361567; Generated 168073090;
+Searching with f-limit = 74.570896; Expanded 1290734329; Generated -237574372;
+
+GOAL found with path of cost = 70.808865
+Summary: total_expanded 12286992579;total_generated -4759609731;goal_cost 70.808865; time_taken: 15163.354711 sec;
